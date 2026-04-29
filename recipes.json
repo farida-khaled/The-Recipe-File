@@ -3,7 +3,7 @@
     "id": "rec-001",
     "slug": "cinnabon-cinnamon-roll-sheet-cake",
     "title": "Cinnabon Cinnamon Roll Sheet Cake",
-    "description": "A decadent sheet cake inspired by Cinnabon cinnamon rolls, with swirls of cinnamon sugar filling and a rich cream cheese icing.",
+    "description": "A decadent sheet cake with swirled cinnamon filling and cream cheese icing, inspired by the classic Cinnabon roll.",
     "image": "https://recipeextractor.com//images/ohsweetbasil_com_og_1777449292678.jpg",
     "servings": 18,
     "prepTime": "20 min",
@@ -12,7 +12,15 @@
     "cuisine": "American",
     "mealType": "Dessert",
     "diet": "",
-    "tags": ["cake", "cinnamon", "sheet cake", "cream cheese", "baking", "cinnabon", "party"],
+    "tags": [
+      "cake",
+      "cinnamon",
+      "sheet cake",
+      "cream cheese",
+      "baking",
+      "cinnabon",
+      "party"
+    ],
     "source": {
       "name": "Oh Sweet Basil",
       "url": "https://ohsweetbasil.com/cinnabon-cinnamon-roll-sheet-cake/"
@@ -21,62 +29,224 @@
       {
         "group": "Filling",
         "items": [
-          {"item": "Brown Sugar", "amount": "1 1/2", "unit": "cup", "notes": ""},
-          {"item": "Ground Cinnamon", "amount": "6.5", "unit": "tablespoon", "notes": "6–7 tablespoons, adjust to taste"},
-          {"item": "Butter", "amount": "15", "unit": "tablespoon", "notes": "melted"}
+          {
+            "item": "Brown Sugar",
+            "amount": 1.5,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Ground Cinnamon",
+            "amount": 6.5,
+            "unit": "tablespoon",
+            "notes": "6–7 tablespoons, adjust to taste"
+          },
+          {
+            "item": "Butter",
+            "amount": 15,
+            "unit": "tablespoon",
+            "notes": "melted"
+          }
         ]
       },
       {
         "group": "Cake",
         "items": [
-          {"item": "Sugar", "amount": "1 1/2", "unit": "cup", "notes": ""},
-          {"item": "Unsalted Butter", "amount": "1", "unit": "cup", "notes": "softened"},
-          {"item": "Sour Cream", "amount": "1/2", "unit": "cup", "notes": ""},
-          {"item": "Sour Cream", "amount": "1", "unit": "tablespoon", "notes": ""},
-          {"item": "Milk", "amount": "3/4", "unit": "cup", "notes": ""},
-          {"item": "Eggs", "amount": "3", "unit": "large", "notes": ""},
-          {"item": "Vanilla Extract", "amount": "3", "unit": "teaspoon", "notes": ""},
-          {"item": "All-Purpose Flour", "amount": "3", "unit": "cup", "notes": ""},
-          {"item": "Baking Powder", "amount": "3", "unit": "teaspoon", "notes": ""},
-          {"item": "Salt", "amount": "3/4", "unit": "teaspoon", "notes": ""}
+          {
+            "item": "Sugar",
+            "amount": 1.5,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Unsalted Butter",
+            "amount": 1,
+            "unit": "cup",
+            "notes": "softened"
+          },
+          {
+            "item": "Sour Cream",
+            "amount": 0.5,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Sour Cream",
+            "amount": 1,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Milk",
+            "amount": 0.75,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Eggs",
+            "amount": 3,
+            "unit": "large",
+            "notes": ""
+          },
+          {
+            "item": "Vanilla Extract",
+            "amount": 3,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "All-Purpose Flour",
+            "amount": 3,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Baking Powder",
+            "amount": 3,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Salt",
+            "amount": 0.75,
+            "unit": "teaspoon",
+            "notes": ""
+          }
         ]
       },
       {
         "group": "Icing",
         "items": [
-          {"item": "Salted Butter", "amount": "4 1/2", "unit": "tablespoon", "notes": ""},
-          {"item": "Sugar", "amount": "3/4", "unit": "cup", "notes": ""},
-          {"item": "Heavy Whipping Cream", "amount": "1", "unit": "cup", "notes": ""},
-          {"item": "Heavy Whipping Cream", "amount": "2", "unit": "tablespoon", "notes": ""},
-          {"item": "Vanilla Extract", "amount": "1 1/2", "unit": "teaspoon", "notes": ""},
-          {"item": "Corn Syrup", "amount": "4 1/2", "unit": "teaspoon", "notes": ""},
-          {"item": "Cream Cheese", "amount": "4", "unit": "oz", "notes": "softened"},
-          {"item": "Powdered Sugar", "amount": "2.5", "unit": "cup", "notes": "2–3 cups, adjust to consistency"}
+          {
+            "item": "Salted Butter",
+            "amount": 4.5,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Sugar",
+            "amount": 0.75,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Heavy Whipping Cream",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Heavy Whipping Cream",
+            "amount": 2,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Vanilla Extract",
+            "amount": 1.5,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Corn Syrup",
+            "amount": 4.5,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Cream Cheese",
+            "amount": 4,
+            "unit": "oz",
+            "notes": "softened"
+          },
+          {
+            "item": "Powdered Sugar",
+            "amount": 2.5,
+            "unit": "cup",
+            "notes": "2–3 cups, adjust to consistency"
+          }
         ]
       }
     ],
     "instructions": [
-      {"step": 1, "text": "Preheat oven to 350°F and grease a cookie sheet (13×18 inch half size baking sheet)."},
-      {"step": 2, "text": "Combine the brown sugar and cinnamon in a medium sized bowl to make the cinnamon filling."},
-      {"step": 3, "text": "Add melted butter to the cinnamon filling and mix until combined, then set aside."},
-      {"step": 4, "text": "In a large mixer bowl, combine sugar and butter. Beat on medium speed until light and fluffy, about 3–4 minutes."},
-      {"step": 5, "text": "Add sour cream to the butter mixture and mix until well incorporated."},
-      {"step": 6, "text": "Pour in the milk and mix until smooth."},
-      {"step": 7, "text": "Add eggs and vanilla extract to the batter and mix until smooth."},
-      {"step": 8, "text": "In a separate bowl, combine dry ingredients: all-purpose flour, baking powder, and salt."},
-      {"step": 9, "text": "Gradually add the dry ingredients to the batter and mix until smooth."},
-      {"step": 10, "text": "Pour the batter into the prepared pan and spread it into an even layer."},
-      {"step": 11, "text": "Drizzle the cinnamon sugar mixture over the top of the cake batter."},
-      {"step": 12, "text": "Use a toothpick to gently swirl the cinnamon mixture into the batter."},
-      {"step": 13, "text": "Bake the cake for 22–24 minutes or until a toothpick inserted comes out with a few crumbs. Remove from the oven to cool."},
-      {"step": 14, "text": "To make the icing, combine all the icing ingredients except powdered sugar and cream cheese in a small saucepan."},
-      {"step": 15, "text": "Heat the icing mixture on low until the sugar is melted, then turn the heat to medium to bring to a boil."},
-      {"step": 16, "text": "Boil for 3 minutes, stirring occasionally, then remove from heat."},
-      {"step": 17, "text": "Pour the hot mixture into a heat-proof glass bowl and beat in cream cheese and powdered sugar using a hand mixer."},
-      {"step": 18, "text": "Allow the icing to cool slightly and thicken."},
-      {"step": 19, "text": "Pour the icing evenly over the cooled cake and serve warm."}
+      {
+        "step": 1,
+        "text": "Preheat oven to 350°F and grease a cookie sheet (13×18 inch half size baking sheet)."
+      },
+      {
+        "step": 2,
+        "text": "Combine the brown sugar and cinnamon in a medium sized bowl to make the cinnamon filling."
+      },
+      {
+        "step": 3,
+        "text": "Add melted butter to the cinnamon filling and mix until combined, then set aside."
+      },
+      {
+        "step": 4,
+        "text": "In a large mixer bowl, combine sugar and butter. Beat on medium speed until light and fluffy, about 3-4 minutes."
+      },
+      {
+        "step": 5,
+        "text": "Add sour cream to the butter mixture and mix until well incorporated."
+      },
+      {
+        "step": 6,
+        "text": "Pour in the milk and mix until smooth."
+      },
+      {
+        "step": 7,
+        "text": "Add eggs and vanilla extract to the batter and mix until smooth."
+      },
+      {
+        "step": 8,
+        "text": "In a separate bowl, combine dry ingredients: all-purpose flour, baking powder, and salt."
+      },
+      {
+        "step": 9,
+        "text": "Gradually add the dry ingredients to the batter and mix until smooth."
+      },
+      {
+        "step": 10,
+        "text": "Pour the batter into the prepared pan and spread it into an even layer."
+      },
+      {
+        "step": 11,
+        "text": "Drizzle the cinnamon sugar mixture over the top of the cake batter."
+      },
+      {
+        "step": 12,
+        "text": "Use a toothpick to gently swirl the cinnamon mixture into the batter."
+      },
+      {
+        "step": 13,
+        "text": "Bake the cake for 22-24 minutes or until a toothpick inserted comes out with a few crumbs. Remove from the oven to cool."
+      },
+      {
+        "step": 14,
+        "text": "To make the icing, combine all the icing ingredients except powdered sugar and cream cheese in a small saucepan."
+      },
+      {
+        "step": 15,
+        "text": "Heat the icing mixture on low until the sugar is melted, then turn the heat to medium to bring to a boil."
+      },
+      {
+        "step": 16,
+        "text": "Boil for 3 minutes, stirring occasionally, then remove from heat."
+      },
+      {
+        "step": 17,
+        "text": "Pour the hot mixture into a heat-proof glass bowl and beat in cream cheese and powdered sugar using a hand mixer."
+      },
+      {
+        "step": 18,
+        "text": "Allow the icing to cool slightly and thicken."
+      },
+      {
+        "step": 19,
+        "text": "Pour the icing evenly over the cooled cake and serve warm."
+      }
     ],
-    "notes": "",
+    "notes": "For best results, use room temperature ingredients. The cake is best served warm on the day it's made.",
     "favorite": false,
     "createdAt": "2026-04-29T00:00:00.000Z",
     "updatedAt": "2026-04-29T00:00:00.000Z"
@@ -95,41 +265,126 @@
     "mealType": "Dinner",
     "diet": "Vegetarian",
     "tags": ["pizza", "italian", "vegetarian", "classic"],
-    "source": {"name": "My own recipe", "url": ""},
+    "source": {
+      "name": "My own recipe"
+    },
     "ingredients": [
       {
         "group": "Dough",
         "items": [
-          {"item": "All-Purpose Flour", "amount": "2 1/2", "unit": "cup", "notes": "or bread flour"},
-          {"item": "Active Dry Yeast", "amount": "1", "unit": "teaspoon", "notes": ""},
-          {"item": "Salt", "amount": "1", "unit": "teaspoon", "notes": ""},
-          {"item": "Olive Oil", "amount": "2", "unit": "tablespoon", "notes": ""},
-          {"item": "Warm Water", "amount": "1", "unit": "cup", "notes": "105–110°F"}
+          {
+            "item": "All-Purpose Flour",
+            "amount": 2.5,
+            "unit": "cup",
+            "notes": "or tipo 00"
+          },
+          {
+            "item": "Warm Water",
+            "amount": 1,
+            "unit": "cup",
+            "notes": "110°F"
+          },
+          {
+            "item": "Active Dry Yeast",
+            "amount": 1,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Olive Oil",
+            "amount": 2,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Salt",
+            "amount": 1,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Sugar",
+            "amount": 1,
+            "unit": "teaspoon",
+            "notes": ""
+          }
         ]
       },
       {
         "group": "Topping",
         "items": [
-          {"item": "San Marzano Tomatoes", "amount": "1", "unit": "can", "notes": "14 oz, crushed by hand"},
-          {"item": "Fresh Mozzarella", "amount": "8", "unit": "oz", "notes": "sliced"},
-          {"item": "Fresh Basil", "amount": "10", "unit": "leaves", "notes": ""},
-          {"item": "Olive Oil", "amount": "1", "unit": "tablespoon", "notes": "for drizzling"},
-          {"item": "Salt", "amount": "1", "unit": "pinch", "notes": ""}
+          {
+            "item": "San Marzano Tomatoes",
+            "amount": 1,
+            "unit": "can",
+            "notes": "14 oz, crushed by hand"
+          },
+          {
+            "item": "Fresh Mozzarella",
+            "amount": 8,
+            "unit": "oz",
+            "notes": "sliced"
+          },
+          {
+            "item": "Fresh Basil",
+            "amount": 10,
+            "unit": "whole",
+            "notes": "leaves"
+          },
+          {
+            "item": "Olive Oil",
+            "amount": 1,
+            "unit": "tablespoon",
+            "notes": "for drizzling"
+          },
+          {
+            "item": "Salt",
+            "amount": 0.5,
+            "unit": "teaspoon",
+            "notes": ""
+          }
         ]
       }
     ],
     "instructions": [
-      {"step": 1, "text": "Dissolve yeast in warm water and let sit for 5 minutes until foamy."},
-      {"step": 2, "text": "Mix flour and salt, add yeast mixture and olive oil. Knead for 8–10 minutes until smooth and elastic."},
-      {"step": 3, "text": "Cover dough and let rise in a warm place for 1 hour until doubled."},
-      {"step": 4, "text": "Preheat oven to 500°F (or as high as it goes) with a pizza stone or inverted baking sheet inside."},
-      {"step": 5, "text": "Stretch dough into a 12-inch round on a floured surface."},
-      {"step": 6, "text": "Spread crushed tomatoes over the dough, leaving a 1-inch border."},
-      {"step": 7, "text": "Arrange mozzarella slices on top. Drizzle with olive oil and sprinkle with salt."},
-      {"step": 8, "text": "Slide pizza onto the hot stone and bake for 10–12 minutes until crust is golden and cheese is bubbly."},
-      {"step": 9, "text": "Remove from oven, top with fresh basil leaves, slice, and serve immediately."}
+      {
+        "step": 1,
+        "text": "Dissolve yeast and sugar in warm water. Let sit 5 minutes until foamy."
+      },
+      {
+        "step": 2,
+        "text": "Mix flour and salt. Add yeast mixture and olive oil. Knead 8-10 minutes until smooth."
+      },
+      {
+        "step": 3,
+        "text": "Cover dough and let rise 1 hour until doubled."
+      },
+      {
+        "step": 4,
+        "text": "Preheat oven to 500°F with a pizza stone or inverted baking sheet."
+      },
+      {
+        "step": 5,
+        "text": "Stretch dough into a 12-inch round on a floured surface."
+      },
+      {
+        "step": 6,
+        "text": "Spread crushed tomatoes, leaving a 1-inch border. Season with salt."
+      },
+      {
+        "step": 7,
+        "text": "Arrange mozzarella slices over the sauce."
+      },
+      {
+        "step": 8,
+        "text": "Bake 10-12 minutes until crust is golden and cheese is bubbly."
+      },
+      {
+        "step": 9,
+        "text": "Top with fresh basil and a drizzle of olive oil. Slice and serve."
+      }
     ],
-    "notes": "For best results, let the dough cold-ferment in the fridge overnight.",
+    "notes": "For crispier crust, preheat the stone for at least 30 minutes.",
     "favorite": false,
     "createdAt": "2026-04-29T00:00:00.000Z",
     "updatedAt": "2026-04-29T00:00:00.000Z"
@@ -138,202 +393,4326 @@
     "id": "rec-003",
     "slug": "chicken-tikka-masala",
     "title": "Chicken Tikka Masala",
-    "description": "Tender marinated chicken in a rich, creamy tomato-spice sauce. A beloved classic.",
+    "description": "Tender marinated chicken in a rich, creamy tomato-spice sauce. A beloved British-Indian classic.",
     "image": "",
     "servings": 6,
     "prepTime": "30 min",
-    "cookTime": "35 min",
-    "totalTime": "1 hr 5 min",
+    "cookTime": "30 min",
+    "totalTime": "60 min",
     "cuisine": "Indian",
     "mealType": "Dinner",
     "diet": "",
     "tags": ["chicken", "curry", "indian", "creamy", "spicy"],
-    "source": {"name": "Family recipe", "url": ""},
+    "source": null,
     "ingredients": [
       {
         "group": "Marinade",
         "items": [
-          {"item": "Chicken Breast", "amount": "2", "unit": "lb", "notes": "cut into chunks"},
-          {"item": "Yogurt", "amount": "1", "unit": "cup", "notes": "plain"},
-          {"item": "Lemon Juice", "amount": "2", "unit": "tablespoon", "notes": ""},
-          {"item": "Garam Masala", "amount": "2", "unit": "teaspoon", "notes": ""},
-          {"item": "Ground Cumin", "amount": "1", "unit": "teaspoon", "notes": ""},
-          {"item": "Paprika", "amount": "1", "unit": "teaspoon", "notes": ""},
-          {"item": "Salt", "amount": "1", "unit": "teaspoon", "notes": ""}
+          {
+            "item": "Chicken Breast",
+            "amount": 2,
+            "unit": "lb",
+            "notes": "cut into chunks"
+          },
+          {
+            "item": "Yogurt",
+            "amount": 1,
+            "unit": "cup",
+            "notes": "plain"
+          },
+          {
+            "item": "Lemon Juice",
+            "amount": 2,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Garam Masala",
+            "amount": 2,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Cumin",
+            "amount": 1,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Salt",
+            "amount": 1,
+            "unit": "teaspoon",
+            "notes": ""
+          }
         ]
       },
       {
         "group": "Sauce",
         "items": [
-          {"item": "Butter", "amount": "3", "unit": "tablespoon", "notes": ""},
-          {"item": "Onion", "amount": "1", "unit": "large", "notes": "diced"},
-          {"item": "Garlic", "amount": "4", "unit": "clove", "notes": "minced"},
-          {"item": "Fresh Ginger", "amount": "1", "unit": "tablespoon", "notes": "grated"},
-          {"item": "Tomato Puree", "amount": "2", "unit": "cup", "notes": ""},
-          {"item": "Heavy Cream", "amount": "1", "unit": "cup", "notes": ""},
-          {"item": "Garam Masala", "amount": "1", "unit": "tablespoon", "notes": ""},
-          {"item": "Sugar", "amount": "1", "unit": "teaspoon", "notes": ""},
-          {"item": "Salt", "amount": "", "unit": "", "notes": "to taste"}
+          {
+            "item": "Butter",
+            "amount": 3,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Onion",
+            "amount": 1,
+            "unit": "large",
+            "notes": "diced"
+          },
+          {
+            "item": "Garlic",
+            "amount": 4,
+            "unit": "clove",
+            "notes": "minced"
+          },
+          {
+            "item": "Ginger",
+            "amount": 1,
+            "unit": "tablespoon",
+            "notes": "grated"
+          },
+          {
+            "item": "Tomato Paste",
+            "amount": 2,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Crushed Tomatoes",
+            "amount": 1,
+            "unit": "can",
+            "notes": "14 oz"
+          },
+          {
+            "item": "Heavy Cream",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Garam Masala",
+            "amount": 1,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Sugar",
+            "amount": 1,
+            "unit": "teaspoon",
+            "notes": ""
+          }
         ]
       }
     ],
     "instructions": [
-      {"step": 1, "text": "Combine all marinade ingredients. Coat chicken and refrigerate for at least 1 hour (overnight is best)."},
-      {"step": 2, "text": "Preheat broiler. Thread chicken onto skewers and broil for 12–15 minutes, turning once, until charred."},
-      {"step": 3, "text": "In a large pan, melt butter over medium heat. Sauté onion until soft, about 5 minutes."},
-      {"step": 4, "text": "Add garlic and ginger, cook for 1 minute until fragrant."},
-      {"step": 5, "text": "Add tomato puree, garam masala, and sugar. Simmer for 15 minutes."},
-      {"step": 6, "text": "Stir in heavy cream and add the broiled chicken. Simmer for 10 minutes."},
-      {"step": 7, "text": "Season with salt to taste. Serve over basmati rice with naan bread."}
+      {
+        "step": 1,
+        "text": "Mix all marinade ingredients. Marinate chicken at least 1 hour or overnight."
+      },
+      {
+        "step": 2,
+        "text": "Thread chicken onto skewers and broil or grill 4-5 minutes per side until charred."
+      },
+      {
+        "step": 3,
+        "text": "Melt butter in a large pan. Sauté onion until soft, about 5 minutes."
+      },
+      {
+        "step": 4,
+        "text": "Add garlic and ginger, cook 1 minute until fragrant."
+      },
+      {
+        "step": 5,
+        "text": "Stir in tomato paste and crushed tomatoes. Simmer 10 minutes."
+      },
+      {
+        "step": 6,
+        "text": "Add cream, garam masala, and sugar. Stir to combine."
+      },
+      {
+        "step": 7,
+        "text": "Add grilled chicken to the sauce. Simmer 10 minutes."
+      },
+      {
+        "step": 8,
+        "text": "Serve over basmati rice with naan bread."
+      }
     ],
-    "notes": "Marinating overnight makes a huge difference in flavor and tenderness.",
+    "notes": "Marinating overnight gives the best flavor. Adjust cream for desired richness.",
     "favorite": false,
     "createdAt": "2026-04-29T00:00:00.000Z",
     "updatedAt": "2026-04-29T00:00:00.000Z"
   },
   {
     "id": "rec-004",
-    "slug": "japanese-fluffy-pancakes",
-    "title": "Japanese Fluffy Pancakes",
-    "description": "Impossibly thick, jiggly soufflé pancakes that are light as air.",
+    "slug": "japanese-miso-ramen",
+    "title": "Japanese Miso Ramen",
+    "description": "Rich and savory miso-based ramen with a deeply flavored broth, topped with soft-boiled egg and chashu pork.",
     "image": "",
-    "servings": 2,
-    "prepTime": "15 min",
-    "cookTime": "20 min",
-    "totalTime": "35 min",
+    "servings": 4,
+    "prepTime": "20 min",
+    "cookTime": "25 min",
+    "totalTime": "45 min",
     "cuisine": "Japanese",
-    "mealType": "Breakfast",
-    "diet": "Vegetarian",
-    "tags": ["pancakes", "breakfast", "japanese", "fluffy", "soufflé"],
-    "source": {"name": "My own recipe", "url": ""},
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["ramen", "japanese", "soup", "noodles", "comfort food"],
+    "source": null,
     "ingredients": [
       {
         "group": "",
         "items": [
-          {"item": "Eggs", "amount": "2", "unit": "large", "notes": "separated"},
-          {"item": "Sugar", "amount": "2", "unit": "tablespoon", "notes": ""},
-          {"item": "Milk", "amount": "3", "unit": "tablespoon", "notes": ""},
-          {"item": "Vanilla Extract", "amount": "1", "unit": "teaspoon", "notes": ""},
-          {"item": "All-Purpose Flour", "amount": "1/4", "unit": "cup", "notes": ""},
-          {"item": "Baking Powder", "amount": "1/2", "unit": "teaspoon", "notes": ""},
-          {"item": "Cream of Tartar", "amount": "1/4", "unit": "teaspoon", "notes": "for meringue"},
-          {"item": "Butter", "amount": "1", "unit": "teaspoon", "notes": "for the pan"}
+          {
+            "item": "Ramen Noodles",
+            "amount": 4,
+            "unit": "package",
+            "notes": "fresh or dried"
+          },
+          {
+            "item": "Chicken Broth",
+            "amount": 6,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "White Miso Paste",
+            "amount": 4,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Soy Sauce",
+            "amount": 2,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Sesame Oil",
+            "amount": 1,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Garlic",
+            "amount": 3,
+            "unit": "clove",
+            "notes": "minced"
+          },
+          {
+            "item": "Ginger",
+            "amount": 1,
+            "unit": "tablespoon",
+            "notes": "grated"
+          },
+          {
+            "item": "Eggs",
+            "amount": 4,
+            "unit": "large",
+            "notes": "soft-boiled"
+          },
+          {
+            "item": "Green Onions",
+            "amount": 4,
+            "unit": "stalk",
+            "notes": "sliced"
+          },
+          {
+            "item": "Corn",
+            "amount": 0.5,
+            "unit": "cup",
+            "notes": "kernels"
+          },
+          {
+            "item": "Nori",
+            "amount": 4,
+            "unit": "piece",
+            "notes": "sheets"
+          }
         ]
       }
     ],
     "instructions": [
-      {"step": 1, "text": "Separate eggs. Whisk yolks with milk, vanilla, flour, and baking powder until smooth."},
-      {"step": 2, "text": "Beat egg whites with cream of tartar until soft peaks form. Gradually add sugar and beat to stiff, glossy peaks."},
-      {"step": 3, "text": "Gently fold one-third of the meringue into the yolk batter, then fold in the rest. Do not overmix."},
-      {"step": 4, "text": "Heat a non-stick pan on the lowest heat. Lightly butter the surface."},
-      {"step": 5, "text": "Spoon batter into tall mounds (use ring molds if available). Add 1 tablespoon water to the pan and cover."},
-      {"step": 6, "text": "Cook for 10 minutes on very low heat. Gently flip and cook another 8–10 minutes covered."},
-      {"step": 7, "text": "Serve immediately with maple syrup, whipped cream, and fresh berries."}
+      {
+        "step": 1,
+        "text": "Soft-boil eggs: cook 6.5 minutes, then ice bath. Peel and set aside."
+      },
+      {
+        "step": 2,
+        "text": "Sauté garlic and ginger in sesame oil for 1 minute."
+      },
+      {
+        "step": 3,
+        "text": "Add chicken broth and bring to a simmer."
+      },
+      {
+        "step": 4,
+        "text": "Whisk in miso paste and soy sauce. Keep warm but don't boil."
+      },
+      {
+        "step": 5,
+        "text": "Cook ramen noodles according to package directions. Drain."
+      },
+      {
+        "step": 6,
+        "text": "Divide noodles among bowls. Ladle broth over noodles."
+      },
+      {
+        "step": 7,
+        "text": "Top with halved soft-boiled egg, corn, green onions, and nori."
+      }
     ],
-    "notes": "The key is very low heat and patience. Don't rush the cooking or they'll deflate.",
+    "notes": "Don't boil the broth after adding miso — it kills the beneficial cultures and dulls the flavor.",
     "favorite": false,
     "createdAt": "2026-04-29T00:00:00.000Z",
     "updatedAt": "2026-04-29T00:00:00.000Z"
   },
   {
     "id": "rec-005",
-    "slug": "thai-basil-fried-rice",
-    "title": "Thai Basil Fried Rice",
-    "description": "Quick, fiery fried rice with Thai basil, garlic, and chili. Ready in 15 minutes.",
+    "slug": "fluffy-buttermilk-pancakes",
+    "title": "Fluffy Buttermilk Pancakes",
+    "description": "Light, fluffy, and golden — the perfect weekend breakfast pancakes.",
     "image": "",
-    "servings": 2,
-    "prepTime": "5 min",
-    "cookTime": "10 min",
-    "totalTime": "15 min",
-    "cuisine": "Thai",
-    "mealType": "Lunch",
-    "diet": "",
-    "tags": ["rice", "thai", "quick", "spicy", "basil", "weeknight"],
-    "source": {"name": "My own recipe", "url": ""},
+    "servings": 8,
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "cuisine": "American",
+    "mealType": "Breakfast",
+    "diet": "Vegetarian",
+    "tags": ["pancakes", "breakfast", "brunch", "easy", "classic"],
+    "source": {
+      "name": "Family recipe"
+    },
     "ingredients": [
       {
         "group": "",
         "items": [
-          {"item": "Cooked Jasmine Rice", "amount": "3", "unit": "cup", "notes": "day-old preferred"},
-          {"item": "Chicken Thigh", "amount": "8", "unit": "oz", "notes": "diced (or tofu)"},
-          {"item": "Garlic", "amount": "4", "unit": "clove", "notes": "minced"},
-          {"item": "Thai Chili", "amount": "3", "unit": "whole", "notes": "sliced"},
-          {"item": "Soy Sauce", "amount": "2", "unit": "tablespoon", "notes": ""},
-          {"item": "Fish Sauce", "amount": "1", "unit": "tablespoon", "notes": ""},
-          {"item": "Sugar", "amount": "1", "unit": "teaspoon", "notes": ""},
-          {"item": "Vegetable Oil", "amount": "2", "unit": "tablespoon", "notes": ""},
-          {"item": "Thai Basil", "amount": "1", "unit": "cup", "notes": "packed leaves"},
-          {"item": "Eggs", "amount": "2", "unit": "large", "notes": ""}
+          {
+            "item": "All-Purpose Flour",
+            "amount": 1.5,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Sugar",
+            "amount": 3,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Baking Powder",
+            "amount": 1.5,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Baking Soda",
+            "amount": 0.5,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Salt",
+            "amount": 0.25,
+            "unit": "teaspoon",
+            "notes": ""
+          },
+          {
+            "item": "Buttermilk",
+            "amount": 1.25,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Egg",
+            "amount": 1,
+            "unit": "large",
+            "notes": ""
+          },
+          {
+            "item": "Butter",
+            "amount": 3,
+            "unit": "tablespoon",
+            "notes": "melted"
+          },
+          {
+            "item": "Vanilla Extract",
+            "amount": 1,
+            "unit": "teaspoon",
+            "notes": ""
+          }
         ]
       }
     ],
     "instructions": [
-      {"step": 1, "text": "Heat oil in a wok over high heat until smoking."},
-      {"step": 2, "text": "Add garlic and chilies, stir-fry for 30 seconds."},
-      {"step": 3, "text": "Add chicken and cook until no longer pink, about 3 minutes."},
-      {"step": 4, "text": "Push everything to one side, crack eggs into the wok, and scramble."},
-      {"step": 5, "text": "Add rice and toss everything together. Add soy sauce, fish sauce, and sugar."},
-      {"step": 6, "text": "Stir-fry on high heat for 2–3 minutes until rice is hot and slightly crispy."},
-      {"step": 7, "text": "Remove from heat, toss in Thai basil until wilted. Serve with a fried egg on top."}
+      {
+        "step": 1,
+        "text": "Whisk flour, sugar, baking powder, baking soda, and salt in a large bowl."
+      },
+      {
+        "step": 2,
+        "text": "In a separate bowl, whisk buttermilk, egg, melted butter, and vanilla."
+      },
+      {
+        "step": 3,
+        "text": "Pour wet ingredients into dry. Stir until just combined — lumps are okay."
+      },
+      {
+        "step": 4,
+        "text": "Heat a griddle or pan over medium heat. Lightly butter the surface."
+      },
+      {
+        "step": 5,
+        "text": "Pour ¼ cup batter per pancake. Cook until bubbles form on surface, about 2-3 minutes."
+      },
+      {
+        "step": 6,
+        "text": "Flip and cook another 1-2 minutes until golden."
+      },
+      {
+        "step": 7,
+        "text": "Serve with maple syrup, fresh berries, or whipped cream."
+      }
     ],
-    "notes": "Day-old rice works best — fresh rice is too moist and will steam instead of fry.",
+    "notes": "Don't overmix the batter — lumps make fluffier pancakes. Let batter rest 5 minutes before cooking.",
     "favorite": false,
     "createdAt": "2026-04-29T00:00:00.000Z",
     "updatedAt": "2026-04-29T00:00:00.000Z"
   },
   {
     "id": "rec-006",
-    "slug": "new-york-cheesecake",
-    "title": "New York Cheesecake",
-    "description": "Dense, creamy, tangy cheesecake with a buttery graham cracker crust. The definitive recipe.",
+    "slug": "thai-green-curry",
+    "title": "Thai Green Curry",
+    "description": "Aromatic coconut-based green curry with vegetables and your choice of protein.",
     "image": "",
-    "servings": 12,
-    "prepTime": "25 min",
-    "cookTime": "1 hr 15 min",
-    "totalTime": "1 hr 40 min",
-    "cuisine": "American",
-    "mealType": "Dessert",
-    "diet": "Vegetarian",
-    "tags": ["cheesecake", "dessert", "classic", "baking", "new york"],
-    "source": {"name": "My own recipe", "url": ""},
+    "servings": 4,
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "cuisine": "Thai",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["curry", "thai", "coconut", "spicy", "weeknight"],
+    "source": null,
     "ingredients": [
       {
-        "group": "Crust",
+        "group": "",
         "items": [
-          {"item": "Graham Cracker Crumbs", "amount": "2", "unit": "cup", "notes": ""},
-          {"item": "Sugar", "amount": "1/4", "unit": "cup", "notes": ""},
-          {"item": "Butter", "amount": "6", "unit": "tablespoon", "notes": "melted"}
-        ]
-      },
-      {
-        "group": "Filling",
-        "items": [
-          {"item": "Cream Cheese", "amount": "32", "unit": "oz", "notes": "4 blocks, room temperature"},
-          {"item": "Sugar", "amount": "1", "unit": "cup", "notes": ""},
-          {"item": "Sour Cream", "amount": "1", "unit": "cup", "notes": ""},
-          {"item": "Vanilla Extract", "amount": "2", "unit": "teaspoon", "notes": ""},
-          {"item": "Lemon Zest", "amount": "1", "unit": "tablespoon", "notes": ""},
-          {"item": "Eggs", "amount": "4", "unit": "large", "notes": "room temperature"},
-          {"item": "Egg Yolks", "amount": "2", "unit": "large", "notes": ""},
-          {"item": "All-Purpose Flour", "amount": "2", "unit": "tablespoon", "notes": ""}
+          {
+            "item": "Coconut Milk",
+            "amount": 2,
+            "unit": "can",
+            "notes": "14 oz each, full fat"
+          },
+          {
+            "item": "Green Curry Paste",
+            "amount": 3,
+            "unit": "tablespoon",
+            "notes": "adjust to taste"
+          },
+          {
+            "item": "Chicken Breast",
+            "amount": 1,
+            "unit": "lb",
+            "notes": "sliced thin, or use tofu"
+          },
+          {
+            "item": "Bamboo Shoots",
+            "amount": 1,
+            "unit": "can",
+            "notes": "8 oz, drained"
+          },
+          {
+            "item": "Bell Pepper",
+            "amount": 1,
+            "unit": "whole",
+            "notes": "sliced"
+          },
+          {
+            "item": "Zucchini",
+            "amount": 1,
+            "unit": "medium",
+            "notes": "sliced"
+          },
+          {
+            "item": "Fish Sauce",
+            "amount": 2,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Brown Sugar",
+            "amount": 1,
+            "unit": "tablespoon",
+            "notes": ""
+          },
+          {
+            "item": "Thai Basil",
+            "amount": 0.5,
+            "unit": "cup",
+            "notes": "leaves"
+          },
+          {
+            "item": "Jasmine Rice",
+            "amount": 2,
+            "unit": "cup",
+            "notes": "cooked, for serving"
+          }
         ]
       }
     ],
     "instructions": [
-      {"step": 1, "text": "Preheat oven to 350°F. Wrap the outside of a 9-inch springform pan with foil."},
-      {"step": 2, "text": "Mix graham cracker crumbs, sugar, and melted butter. Press into the bottom and 1 inch up the sides of the pan."},
-      {"step": 3, "text": "Bake crust for 10 minutes. Let cool. Reduce oven to 325°F."},
-      {"step": 4, "text": "Beat cream cheese until smooth. Add sugar and beat until fluffy, about 3 minutes."},
-      {"step": 5, "text": "Mix in sour cream, vanilla, and lemon zest."},
-      {"step": 6, "text": "Add eggs and yolks one at a time, mixing on low just until incorporated. Fold in flour."},
-      {"step": 7, "text": "Pour filling over crust. Place pan in a roasting pan and add hot water halfway up the sides."},
-      {"step": 8, "text": "Bake for 1 hour 15 minutes until edges are set but center still jiggles slightly."},
-      {"step": 9, "text": "Turn off oven, crack the door, and let cheesecake cool inside for 1 hour."},
-      {"step": 10, "text": "Refrigerate for at least 6 hours (overnight is best) before serving."}
+      {
+        "step": 1,
+        "text": "Scoop the thick cream from one can of coconut milk into a hot pan."
+      },
+      {
+        "step": 2,
+        "text": "Stir in green curry paste and cook 2 minutes until fragrant."
+      },
+      {
+        "step": 3,
+        "text": "Add chicken and cook 3-4 minutes until no longer pink."
+      },
+      {
+        "step": 4,
+        "text": "Pour in remaining coconut milk. Add bamboo shoots, bell pepper, and zucchini."
+      },
+      {
+        "step": 5,
+        "text": "Simmer 10 minutes until vegetables are tender."
+      },
+      {
+        "step": 6,
+        "text": "Season with fish sauce and brown sugar. Adjust to taste."
+      },
+      {
+        "step": 7,
+        "text": "Stir in Thai basil. Serve over jasmine rice."
+      }
     ],
-    "notes": "Room temperature ingredients are critical — cold cream cheese will be lumpy. The water bath prevents cracking.",
+    "notes": "Use the thick coconut cream from the top of the can for the best curry base.",
     "favorite": false,
     "createdAt": "2026-04-29T00:00:00.000Z",
     "updatedAt": "2026-04-29T00:00:00.000Z"
+  },
+  {
+    "id": "rec-007",
+    "slug": "tasty-s-fluffy-pancakes-ingredients",
+    "title": "Tasty’s Fluffy Pancakes Ingredients",
+    "description": "A recipe for Tasty’s Fluffy Pancakes Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Breakfast",
+    "diet": "",
+    "tags": ["pancakes", "breakfast"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "all-purpose flour",
+            "amount": 2.5,
+            "unit": "cups",
+            "notes": "310 g"
+          },
+          {
+            "item": "sugar",
+            "amount": 3,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "kosher salt",
+            "amount": 2,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "baking powder",
+            "amount": 1,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "baking soda",
+            "amount": 1,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "buttermilk",
+            "amount": 2.5,
+            "unit": "cups",
+            "notes": "600 mL"
+          },
+          {
+            "item": "vinegar",
+            "amount": "2-3",
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "unsalted butter melted",
+            "amount": 8,
+            "unit": "tbsp",
+            "notes": "1 stick"
+          },
+          {
+            "item": "eggs",
+            "amount": 2,
+            "unit": "",
+            "notes": "whites and yolks separated"
+          },
+          {
+            "item": "unsalted butter",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": "plus more for serving"
+          },
+          {
+            "item": "Optional: Blueberries chocolate chips",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Maple syrup",
+            "amount": 0,
+            "unit": "",
+            "notes": "for serving"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "In a large bowl whisk together the flour sugar salt baking powder and baking soda."
+      },
+      {
+        "step": 2,
+        "text": "In a separate bowl combine the buttermilk and vinegar (let sit 5-10 mins). Whisk in the melted butter and egg yolks."
+      },
+      {
+        "step": 3,
+        "text": "Gently fold the wet mixture into the dry ingredients using a rubber spatula until just combined."
+      },
+      {
+        "step": 4,
+        "text": "Fold in the egg whites. Do not overmix; lumps are fine. Rest the batter for 15-30 minutes at room temperature."
+      },
+      {
+        "step": 5,
+        "text": "Heat a cast-iron skillet over medium-low heat and melt 1 tbsp butter."
+      },
+      {
+        "step": 6,
+        "text": "Pour ⅓ cup of batter per pancake. Cook for 2-3 minutes until bubbles appear (add toppings here if using). Flip and cook for 1-2 minutes until golden brown."
+      },
+      {
+        "step": 7,
+        "text": "Serve warm with butter and maple syrup."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-008",
+    "slug": "avec-karim-pancake-recipe",
+    "title": "Avec Karim Pancake Recipe",
+    "description": "A recipe for Avec Karim Pancake Recipe.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Breakfast",
+    "diet": "",
+    "tags": ["pancakes", "breakfast"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "flour",
+            "amount": 1.25,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "baking powder",
+            "amount": 2,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "sugar",
+            "amount": 1.5,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Pinch of salt",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "milk",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "eggs",
+            "amount": 2,
+            "unit": "",
+            "notes": "separated"
+          },
+          {
+            "item": "Frozen butter",
+            "amount": 0,
+            "unit": "",
+            "notes": "for shaving"
+          },
+          {
+            "item": "Syrup",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Whisk the dry ingredients (flour baking powder sugar salt) together."
+      },
+      {
+        "step": 2,
+        "text": "In a separate bowl mix the milk and egg yolks. Add this to the dry ingredients."
+      },
+      {
+        "step": 3,
+        "text": "Whip the egg whites until fluffy then gently fold them into the batter."
+      },
+      {
+        "step": 4,
+        "text": "Cook pancakes on a griddle or pan."
+      },
+      {
+        "step": 5,
+        "text": "Serve with shaved frozen butter (using a vegetable peeler) on top. Warm the syrup and the plate in the microwave before serving."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-009",
+    "slug": "mom-s-pancakes-ingredients",
+    "title": "Mom's Pancakes Ingredients",
+    "description": "A recipe for Mom's Pancakes Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Breakfast",
+    "diet": "",
+    "tags": ["pancakes", "breakfast"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "egg",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "baking powder",
+            "amount": 0.25,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "flour",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "milk",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "oil or butter",
+            "amount": 2,
+            "unit": "tbsp",
+            "notes": "melted"
+          },
+          {
+            "item": "vanilla",
+            "amount": 0.5,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "sugar",
+            "amount": 2,
+            "unit": "tsp",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Whisk the egg milk melted butter/oil and vanilla together in a bowl."
+      },
+      {
+        "step": 2,
+        "text": "In a separate bowl mix the flour sugar and baking powder."
+      },
+      {
+        "step": 3,
+        "text": "Pour the wet ingredients into the dry ingredients and mix until just combined (don't overmix)."
+      },
+      {
+        "step": 4,
+        "text": "Heat a pan and pour the batter to form pancakes. Cook until bubbles form flip and cook until golden."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-010",
+    "slug": "crepe-ingredients",
+    "title": "Crêpe Ingredients",
+    "description": "A recipe for Crêpe Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Breakfast",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Egg",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "flour",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "milk",
+            "amount": 1.25,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "honey OR vanilla sugar",
+            "amount": 1,
+            "unit": "spoon",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Whisk all ingredients together until a completely smooth batter forms."
+      },
+      {
+        "step": 2,
+        "text": "Heat a non-stick pan over medium heat and lightly grease with butter or oil."
+      },
+      {
+        "step": 3,
+        "text": "Pour a small amount of batter into the center and quickly swirl the pan to coat the bottom in a thin even layer."
+      },
+      {
+        "step": 4,
+        "text": "Cook for 1-2 minutes until the edges lift then flip and cook for another 30 seconds."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-011",
+    "slug": "my-salad-ingredients",
+    "title": "My Salad Ingredients",
+    "description": "A recipe for My Salad Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing", "salad"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Kale Lettuce Radishes",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Dressing: Capers mayonnaise Dijon mustard olive oil ginger garlic powder apple cider vinegar salt and pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Chop the greens and radishes."
+      },
+      {
+        "step": 2,
+        "text": "Whisk the dressing ingredients together and toss with the salad."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-012",
+    "slug": "caesar-salad-dressing-ingredients",
+    "title": "Caesar Salad Dressing Ingredients",
+    "description": "A recipe for Caesar Salad Dressing Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing", "salad"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "yogurt",
+            "amount": 1,
+            "unit": "container",
+            "notes": ""
+          },
+          {
+            "item": "mayonnaise",
+            "amount": 2,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "lemon",
+            "amount": 1,
+            "unit": "",
+            "notes": "juiced"
+          },
+          {
+            "item": "zaatar with sesame",
+            "amount": 0.5,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "heaping tsp honey",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "scant tsp regular mustard",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Garlic powder & Onion powder",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Salt & Pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Whisk all ingredients together until smooth."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-013",
+    "slug": "avo-salad-ingredients",
+    "title": "AVO Salad Ingredients",
+    "description": "A recipe for AVO Salad Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing", "salad"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Cucumber Lettuce Avocado Onions Fresh or dried parsley",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Dressing: Dijon mustard honey garlic powder salt pepper apple cider vinegar olive oil.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Chop vegetables."
+      },
+      {
+        "step": 2,
+        "text": "Alternative dressing method: Blend the dressing ingredients with a piece of fresh avocado and fresh parsley for a creamy texture. Toss with the salad."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-014",
+    "slug": "hot-honey-salad-dressing-ingredients",
+    "title": "Hot Honey Salad Dressing Ingredients",
+    "description": "A recipe for Hot Honey Salad Dressing Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing", "salad"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Honey chili flakes/powder a splash of olive oil.",
+            "amount": 0,
+            "unit": "",
+            "notes": "heated"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Warm the honey mix in chili and olive oil and drizzle over your salad."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-015",
+    "slug": "dill-dressing-ingredients",
+    "title": "Dill Dressing Ingredients",
+    "description": "A recipe for Dill Dressing Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Sour cream capers fresh dill lemon juice olive oil a splash of vinegar salt and pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Whisk or blend until smooth."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-016",
+    "slug": "rocca-salad-ingredients",
+    "title": "Rocca Salad Ingredients",
+    "description": "A recipe for Rocca Salad Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing", "salad"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Arugula mushrooms candied walnuts raisins balsamic vinegar parmesan shavings.",
+            "amount": 0,
+            "unit": "",
+            "notes": "rocca"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Toss all ingredients together dressing lightly with the balsamic."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-017",
+    "slug": "bangar-beetroot-salad-ingredients",
+    "title": "Bangar (Beetroot) Salad Ingredients",
+    "description": "A recipe for Bangar (Beetroot) Salad Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing", "salad"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Whole beetroots",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Dressing: Juice of ½ orange lemon juice olive oil honey salt pepper a tiny splash of vinegar.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Wash beetroots well and boil whole. Once boiling lower to a simmer. They are done when a knife pieces them easily."
+      },
+      {
+        "step": 2,
+        "text": "Remove from heat while hot run under cold water and peel. Cut into cubes."
+      },
+      {
+        "step": 3,
+        "text": "Whisk dressing ingredients toss with the warm beetroot and store in the fridge. Stir occasionally."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-018",
+    "slug": "mommy-s-potato-salad-ingredients",
+    "title": "Mommy’s Potato Salad Ingredients",
+    "description": "A recipe for Mommy’s Potato Salad Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing", "salad"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Potatoes",
+            "amount": 0,
+            "unit": "",
+            "notes": "cubed"
+          },
+          {
+            "item": "Parsley",
+            "amount": 0,
+            "unit": "",
+            "notes": "leaves only no stems"
+          },
+          {
+            "item": "Onion",
+            "amount": 0,
+            "unit": "",
+            "notes": "diced"
+          },
+          {
+            "item": "Vinegar sugar mayonnaise salt pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Soak the diced onions in a mixture of vinegar and a little sugar."
+      },
+      {
+        "step": 2,
+        "text": "Boil the potato cubes until cooked. Drain and let them cool naturally (do not rinse with cold water)."
+      },
+      {
+        "step": 3,
+        "text": "Once cool mix potatoes with mayonnaise salt and pepper. Store in the fridge."
+      },
+      {
+        "step": 4,
+        "text": "Before serving fold in the soaked onions and fresh parsley."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-019",
+    "slug": "tant-abeer-fatoush-dressing-ingredients",
+    "title": "Tant Abeer Fatoush Dressing Ingredients",
+    "description": "A recipe for Tant Abeer Fatoush Dressing Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": ["dressing"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "apple cider vinegar crushed garlic 2 heaping tsp sumac olive oil salt pepper.",
+            "amount": 0.25,
+            "unit": "cup",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Whisk everything together generously with olive oil and toss with your salad."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-020",
+    "slug": "betengan-shafika-fried-eggplant-ingredients",
+    "title": "Betengan Shafika (Fried Eggplant) Ingredients",
+    "description": "A recipe for Betengan Shafika (Fried Eggplant) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Eggplant",
+            "amount": 0,
+            "unit": "",
+            "notes": "sliced"
+          },
+          {
+            "item": "Salt",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Dressing: Oil garlic diced tomatoes ¼ cup vinegar salt pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Layer eggplant slices in a colander salting each layer. Let it sit to drain its water. Pat dry with tissues."
+      },
+      {
+        "step": 2,
+        "text": "Deep fry the eggplant drain on tissues and place in a container."
+      },
+      {
+        "step": 3,
+        "text": "For dressing: Brown the garlic in oil add diced tomatoes and let it soften. Add vinegar salt and pepper. Boil twice then remove from heat."
+      },
+      {
+        "step": 4,
+        "text": "Pour the hot dressing over the fried eggplant and seal the container."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-021",
+    "slug": "fatet-betengan-ingredients",
+    "title": "Fatet Betengan Ingredients",
+    "description": "A recipe for Fatet Betengan Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Lunch",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Cubed eggplant diced onion garlic ½ palm tomato paste salt pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Lebanese bread olive oil.",
+            "amount": 0,
+            "unit": "",
+            "notes": "cubed"
+          },
+          {
+            "item": "Yogurt Sauce: 3 large tubs yogurt 2-3 tbsp tahini 1 clove garlic dried mint salt pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Garnish: Pine nuts fried garlic dried mint.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Air-fry eggplant with olive oil spray on the highest setting."
+      },
+      {
+        "step": 2,
+        "text": "Sauté onion and garlic. Add tomato paste and the roasted eggplant. Add a little water season and simmer until soft."
+      },
+      {
+        "step": 3,
+        "text": "Toss bread cubes with olive oil salt pepper and dried coriander. Air-fry until crispy."
+      },
+      {
+        "step": 4,
+        "text": "Mix the yogurt sauce ingredients well (take yogurt out of the fridge 1 hr before)."
+      },
+      {
+        "step": 5,
+        "text": "Layer in a Pyrex: Bread then eggplant then yogurt sauce. Top with fried pine nuts garlic and mint."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-022",
+    "slug": "nadz-lemon-basil-chicken-ingredients",
+    "title": "Nadz Lemon Basil Chicken Ingredients",
+    "description": "A recipe for Nadz Lemon Basil Chicken Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["poultry", "chicken"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Chicken breasts",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Marinade: Lemons apple cider vinegar fresh basil olive oil salt pepper garlic powder.",
+            "amount": 0,
+            "unit": "",
+            "notes": "lots of juice"
+          },
+          {
+            "item": "Butter fresh garlic cooking cream",
+            "amount": 0,
+            "unit": "",
+            "notes": "optional: dried basil"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Marinate the chicken. (Note: Best to leave it to marinate but if eating immediately increase the lemon and vinegar). 2. In a pan simmer fresh garlic in butter. Sear (shawwa7) the chicken breasts for 5 minutes on each side until white on the outside but not fully cooked inside."
+      },
+      {
+        "step": 2,
+        "text": "Add the cooking cream and the leftover marinade to the pan. (Tip from Farida: Use dried basil in the sauce and remove the fresh basil from the marinade here)."
+      },
+      {
+        "step": 3,
+        "text": "Lower the heat and simmer for 15-20 minutes until cooked through."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-023",
+    "slug": "chicken-mushroom-paste-ingredients",
+    "title": "Chicken Mushroom Paste Ingredients",
+    "description": "A recipe for Chicken Mushroom Paste Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["poultry", "chicken"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Chicken mushrooms white grape vinegar oil garlic balsamic vinegar cream seasoning.",
+            "amount": 0,
+            "unit": "",
+            "notes": "or water"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Blend mushrooms into a paste in a food processor."
+      },
+      {
+        "step": 2,
+        "text": "Brown the chicken in a pan on both sides then remove."
+      },
+      {
+        "step": 3,
+        "text": "Deglaze the pan with vinegar/water until evaporated. Add oil and garlic followed by the mushroom paste and seasoning."
+      },
+      {
+        "step": 4,
+        "text": "Stir in balsamic vinegar then cream. Return the chicken and its juices to the pan to finish cooking."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-024",
+    "slug": "mushroom-chicken-ingredients",
+    "title": "Mushroom Chicken Ingredients",
+    "description": "A recipe for Mushroom Chicken Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["poultry", "chicken"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Chicken mushrooms finely minced onion 1 tbsp flour ¾ cup milk butter/ghee garlic parmesan fresh thyme cream salt pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Brown the chicken on both sides. Remove and set aside."
+      },
+      {
+        "step": 2,
+        "text": "Sauté mushrooms until browned then remove."
+      },
+      {
+        "step": 3,
+        "text": "In the same pan melt butter/ghee and sauté minced onion until translucent. Add flour and stir until caramelized (light brown)."
+      },
+      {
+        "step": 4,
+        "text": "Add garlic then gradually whisk in the milk off the heat to avoid lumps."
+      },
+      {
+        "step": 5,
+        "text": "Return to heat season with salt pepper parmesan and thyme. Add the mushrooms and chicken back in. Stir in a splash of cream at the end."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-025",
+    "slug": "mustard-chicken-ingredients",
+    "title": "Mustard Chicken Ingredients",
+    "description": "A recipe for Mustard Chicken Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["poultry", "chicken"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Chicken butter onion garlic Dijon mustard whole grain mustard soy sauce cream water salt pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": "or Worcestershire"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Cook chicken in butter with salt and pepper. Remove from pan."
+      },
+      {
+        "step": 2,
+        "text": "Add more butter sauté onion and garlic in the chicken drippings (bahareez)."
+      },
+      {
+        "step": 3,
+        "text": "Add the mustards a splash of soy/Worcestershire water and cream. Simmer and return chicken to cook through."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-026",
+    "slug": "mommy-s-soy-cubed-chicken-ingredients",
+    "title": "Mommy’s Soy Cubed Chicken Ingredients",
+    "description": "A recipe for Mommy’s Soy Cubed Chicken Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["poultry", "chicken"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Chicken cubes cubed onions milk cream soy sauce cornstarch salt pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Brown the chicken cubes in a pot then remove."
+      },
+      {
+        "step": 2,
+        "text": "Sauté cubed onions. Return the chicken."
+      },
+      {
+        "step": 3,
+        "text": "Add cream milk and soy sauce. Bring to a boil season and let cook."
+      },
+      {
+        "step": 4,
+        "text": "Thicken the sauce with a little cornstarch mixed with cold water at the end."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-027",
+    "slug": "mommy-s-curry-chicken-ingredients",
+    "title": "Mommy’s Curry Chicken Ingredients",
+    "description": "A recipe for Mommy’s Curry Chicken Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["poultry", "chicken"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "whole chicken",
+            "amount": 1,
+            "unit": "",
+            "notes": "cut into 4 pieces scored"
+          },
+          {
+            "item": "yogurt 1 peeled onion minced garlic 1 green bell pepper",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "mustard 1 tsp oregano/thyme 1 tsp curry powder ½ tsp garam masala/chicken spice",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Juice of 1 large lemon olive oil 1 tsp flour salt pepper.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Blend all ingredients (except chicken and water) in a food processor to make a fine paste."
+      },
+      {
+        "step": 2,
+        "text": "Marinate the scored chicken pieces overnight (or at least 2 hours)."
+      },
+      {
+        "step": 3,
+        "text": "Place chicken in a baking dish add 1 cup of water cover and bake at 250°C for at least 45 minutes until tender."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-028",
+    "slug": "oven-chicken-basic-roast-steps",
+    "title": "Oven Chicken (Basic Roast) Steps",
+    "description": "A recipe for Oven Chicken (Basic Roast) Steps.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["poultry", "incomplete", "chicken"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": []
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Mix a little butter garlic powder onion powder and oregano. Rub under the skin and between the wings. Cover with foil and bake for 30 minutes. Remove foil bake on high heat for 15 minutes then lower to 220°C for 1 hour."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-029",
+    "slug": "chicken-parm-and-sour-cream-ingredients",
+    "title": "Chicken Parm & Sour Cream Ingredients",
+    "description": "A recipe for Chicken Parm & Sour Cream Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["poultry", "chicken"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "thin chicken breasts",
+            "amount": 5,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Sour cream",
+            "amount": 450,
+            "unit": "g",
+            "notes": ""
+          },
+          {
+            "item": "Parmesan cheese",
+            "amount": 0.75,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "butter",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Oil",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Garlic powder",
+            "amount": 1,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "dried thyme",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Salt & pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Melt the butter with a little oil in a pan."
+      },
+      {
+        "step": 2,
+        "text": "Season the pan with salt pepper and garlic powder."
+      },
+      {
+        "step": 3,
+        "text": "Add the chicken breasts and brown them on both sides."
+      },
+      {
+        "step": 4,
+        "text": "Add the sour cream to the pan and mix it in."
+      },
+      {
+        "step": 5,
+        "text": "Stir in the dried thyme and Parmesan cheese."
+      },
+      {
+        "step": 6,
+        "text": "Leave to cook gently on low heat."
+      },
+      {
+        "step": 7,
+        "text": "Garnish with fresh parsley before serving."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-030",
+    "slug": "soy-salmon-ingredients",
+    "title": "Soy Salmon Ingredients",
+    "description": "A recipe for Soy Salmon Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Salmon fillets",
+            "amount": 2,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "melted butter",
+            "amount": 4,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Soy sauce",
+            "amount": 4,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "honey",
+            "amount": 2,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Minced garlic",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Minced ginger",
+            "amount": 0,
+            "unit": "",
+            "notes": "or ¼ tsp ginger powder"
+          },
+          {
+            "item": "brown sugar",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Juice of 1 lemon",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Pinch of salt & pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Melt the butter in the microwave (about 30 seconds)."
+      },
+      {
+        "step": 2,
+        "text": "Mix all the marinade ingredients together (melted butter soy sauce honey garlic ginger brown sugar lemon juice salt and pepper)."
+      },
+      {
+        "step": 3,
+        "text": "Set the marinade aside."
+      },
+      {
+        "step": 4,
+        "text": "Wash the salmon fillets."
+      },
+      {
+        "step": 5,
+        "text": "Settle the salmon into the marinade in a Pyrex dish and let it sit for 15 minutes."
+      },
+      {
+        "step": 6,
+        "text": "Bake in a hot oven (high heat)."
+      },
+      {
+        "step": 7,
+        "text": "Near the end of the cooking time turn on the broiler to get some color."
+      },
+      {
+        "step": 8,
+        "text": "Drizzle the cooked salmon with the remaining sauce from the Pyrex when serving."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-031",
+    "slug": "bolognese-ingredients",
+    "title": "Bolognese Ingredients",
+    "description": "A recipe for Bolognese Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["main", "beef"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "large onions minced garlic",
+            "amount": 1.0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Ground beef",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Olive oil salt black pepper pinch of cumin ground cardamom ginger 2 bay leaves cinnamon nutmeg ½ tsp sugar",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "jar tomato sauce tomato paste.",
+            "amount": 0.75,
+            "unit": "",
+            "notes": "salsa"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Pulse onions in a food processor until finely chopped (not a paste)."
+      },
+      {
+        "step": 2,
+        "text": "Sauté onions in olive oil until soft and slightly yellow. Add garlic."
+      },
+      {
+        "step": 3,
+        "text": "Add ground beef cooking until browned and all water has evaporated."
+      },
+      {
+        "step": 4,
+        "text": "Stir in all spices. Lower the heat completely."
+      },
+      {
+        "step": 5,
+        "text": "Add the tomato sauce a little tomato paste water and sugar. Simmer taste and adjust seasoning/water as needed."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-032",
+    "slug": "saneyet-kofta-bel-patates-kofta-and-potato-tray-ingredients",
+    "title": "Saneyet Kofta bel Patates (Kofta & Potato Tray) Ingredients",
+    "description": "A recipe for Saneyet Kofta bel Patates (Kofta & Potato Tray) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Kofta: Ground beef 1 large onion crumb of 3 pieces of toast/bread 1 egg 1 tbsp tahini parsley salt pepper meat spices.",
+            "amount": 0,
+            "unit": "",
+            "notes": "finely minced"
+          },
+          {
+            "item": "Tray: Potatoes minced onion garlic salt pepper cumin curry powder olive oil.",
+            "amount": 0,
+            "unit": "",
+            "notes": "cubed"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Knead the kofta ingredients together thoroughly (mash the meat well). Chill in the fridge then roll into balls."
+      },
+      {
+        "step": 2,
+        "text": "Brown the kofta balls in olive oil in a pan just until they hold their shape."
+      },
+      {
+        "step": 3,
+        "text": "Toss the potatoes onion garlic spices and olive oil in a baking tray."
+      },
+      {
+        "step": 4,
+        "text": "Add the kofta to the tray. Deglaze the frying pan with a little water and pour the juices over the tray. Add enough boiling water to cover."
+      },
+      {
+        "step": 5,
+        "text": "Bake for 30-40 minutes (taste for salt after 10 mins)."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-033",
+    "slug": "koftet-dawood-basha-ingredients",
+    "title": "Koftet Dawood Basha Ingredients",
+    "description": "A recipe for Koftet Dawood Basha Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Ground meat ghee/butter finely diced onion garlic tomato sauce salt pepper meat spices.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Form meat into balls and brown them in ghee. Remove from pan."
+      },
+      {
+        "step": 2,
+        "text": "Sauté the diced onion in the same pan until golden. Add garlic and tomato sauce. Bring to a boil."
+      },
+      {
+        "step": 3,
+        "text": "Season return the kofta to the sauce and simmer. Do not add too much water."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-034",
+    "slug": "tomato-soup-ingredients",
+    "title": "Tomato Soup Ingredients",
+    "description": "A recipe for Tomato Soup Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["soup"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Quartered tomatoes 1 large quartered onion 1 red bell pepper ½ head of garlic fresh basil oregano olive oil tomato paste milk/cream.",
+            "amount": 0,
+            "unit": "",
+            "notes": "halved"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Place tomatoes onion pepper garlic and basil on a baking tray. Drizzle generously with olive oil salt pepper and oregano."
+      },
+      {
+        "step": 2,
+        "text": "Roast on high heat for 40 minutes until blistered."
+      },
+      {
+        "step": 3,
+        "text": "Peel the bell pepper and squeeze the roasted garlic out of its skin."
+      },
+      {
+        "step": 4,
+        "text": "Blend everything with more fresh basil. Strain into a pot."
+      },
+      {
+        "step": 5,
+        "text": "Add tomato paste water (or broth) and finish with milk or cream."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-035",
+    "slug": "mushroom-soup-ingredients",
+    "title": "Mushroom Soup Ingredients",
+    "description": "A recipe for Mushroom Soup Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["soup"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Thinly sliced mushrooms 1 diced yellow onion 1 clove garlic butter olive oil 2 tbsp flour cold water milk Maggi cube fresh thyme cream.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Sauté onion and garlic in butter and olive oil. Add mushrooms and cook until browned."
+      },
+      {
+        "step": 2,
+        "text": "Stir in flour then gradually whisk in cold water and milk."
+      },
+      {
+        "step": 3,
+        "text": "Add Maggi and fresh thyme. Simmer until cooked."
+      },
+      {
+        "step": 4,
+        "text": "Blend to desired consistency season and stir in cream just before serving."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-036",
+    "slug": "lesan-asfour-soup-ingredients",
+    "title": "Lesan Asfour Soup Ingredients",
+    "description": "A recipe for Lesan Asfour Soup Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["soup"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Butter Ghee or Coconut oil",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Mastic",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Cardamom",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "small onion",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Lesan Asfour",
+            "amount": 0,
+            "unit": "",
+            "notes": "orzo pasta"
+          },
+          {
+            "item": "Maggi bouillon",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Bay leaves",
+            "amount": 2,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Any veggies",
+            "amount": 0,
+            "unit": "",
+            "notes": "optional"
+          },
+          {
+            "item": "Tomato sauce",
+            "amount": 0,
+            "unit": "",
+            "notes": "optional"
+          },
+          {
+            "item": "Salt & pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Dice or grate the onion."
+      },
+      {
+        "step": 2,
+        "text": "Sauté the onion in your choice of oil/fat to get some color."
+      },
+      {
+        "step": 3,
+        "text": "Add the Lesan Asfour and cook until golden."
+      },
+      {
+        "step": 4,
+        "text": "Add hot water the Maggi bouillon and bay leaves."
+      },
+      {
+        "step": 5,
+        "text": "Add any chopped veggies and tomato sauce if using."
+      },
+      {
+        "step": 6,
+        "text": "Bring to a boil then season with salt and pepper to taste."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-037",
+    "slug": "mustard-fillet-ingredients",
+    "title": "Mustard Fillet Ingredients",
+    "description": "A recipe for Mustard Fillet Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Meat",
+            "amount": 1,
+            "unit": "kg",
+            "notes": "fillets"
+          },
+          {
+            "item": "Butter",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Olive oil",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "small onion",
+            "amount": 1,
+            "unit": "",
+            "notes": "chopped"
+          },
+          {
+            "item": "Dijon mustard",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Soy sauce",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "cooking cream",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Salt & pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Heat olive oil and butter in a pan then add the onion."
+      },
+      {
+        "step": 2,
+        "text": "Cook the meat fillets on both sides until they get a light brown sear."
+      },
+      {
+        "step": 3,
+        "text": "Lower the heat cover the pan and leave until the water is absorbed (about 30 minutes)."
+      },
+      {
+        "step": 4,
+        "text": "Move the meat to the side of the pan. Add the soy sauce and Dijon mustard and mix well into the pan juices."
+      },
+      {
+        "step": 5,
+        "text": "Add the cream mix everything together cover and leave on low heat to simmer."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-038",
+    "slug": "macarona-bashamel-aya-habib-s-recipe-ingredients",
+    "title": "Macarona Bashamel (Aya Habib's Recipe) Ingredients",
+    "description": "A recipe for Macarona Bashamel (Aya Habib's Recipe) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Penne pasta",
+            "amount": 600,
+            "unit": "g",
+            "notes": ""
+          },
+          {
+            "item": "minced beef",
+            "amount": 0.5,
+            "unit": "kg",
+            "notes": ""
+          },
+          {
+            "item": "small onion",
+            "amount": 1,
+            "unit": "",
+            "notes": "chopped"
+          },
+          {
+            "item": "garlic",
+            "amount": 2,
+            "unit": "cloves",
+            "notes": ""
+          },
+          {
+            "item": "Meat Spices: Salt pepper cardamom cinnamon coriander chili flakes",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "to 1 ¼ cup tomato sauce",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "sugar",
+            "amount": 0.5,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "Bechamel:",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "butter",
+            "amount": 5,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "flour",
+            "amount": 5,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "liters milk",
+            "amount": 1.5,
+            "unit": "",
+            "notes": "6 cups"
+          },
+          {
+            "item": "Bay leaf nutmeg white pepper salt",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "cream cheese",
+            "amount": 110,
+            "unit": "g",
+            "notes": "or qeshta / heavy cream"
+          },
+          {
+            "item": "Parmesan and Cheddar/Mozzarella cheese",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "The Pasta: Cook pasta in well-salted water until al dente. Drain and wash in cold water so it doesn't stick."
+      },
+      {
+        "step": 2,
+        "text": "The Meat: Heat a cast-iron pan until really hot. Add the minced meat and don't move it until the bottom layer is colored. Then mix around until all the meat is browned."
+      },
+      {
+        "step": 3,
+        "text": "Add the chopped onion and mix. Add the garlic to mix in."
+      },
+      {
+        "step": 4,
+        "text": "When the onions are translucent add all the meat spices."
+      },
+      {
+        "step": 5,
+        "text": "Stir in the tomato sauce and sugar. Simmer until it thickens."
+      },
+      {
+        "step": 6,
+        "text": "The Bechamel: Melt butter in a pot and add the flour. Whisk together until the flour starts boiling/foaming."
+      },
+      {
+        "step": 7,
+        "text": "Add the milk slowly bit by bit. Only add more milk when the mixture is completely uniform."
+      },
+      {
+        "step": 8,
+        "text": "Add the bay leaf salt white pepper and nutmeg. Leave to thicken."
+      },
+      {
+        "step": 9,
+        "text": "Stir in the cream cheese (or qeshta/cream)."
+      },
+      {
+        "step": 10,
+        "text": "Assembly: Oil a Pyrex dish. Layer bechamel then half pasta (mixed with bechamel/meat) more bechamel all the meat mozzarella rest of pasta and final bechamel layer."
+      },
+      {
+        "step": 11,
+        "text": "Bake at 200°C for 15-20 minutes."
+      },
+      {
+        "step": 12,
+        "text": "Top with more cheese and broil to color."
+      },
+      {
+        "step": 13,
+        "text": "Garnish with parsley and parmesan."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-039",
+    "slug": "beef-carrot-casserole-ingredients",
+    "title": "Beef Carrot Casserole Ingredients",
+    "description": "A recipe for Beef Carrot Casserole Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["main", "beef"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Cubed beef",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Carrots",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "onions",
+            "amount": 2,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Butter & oil",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "flour",
+            "amount": 2,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Bay leaves",
+            "amount": 2,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Beef spice mix",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Paprika",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Salt & pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Water",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Heat butter and oil in a cast-iron pot. Sear the meat in batches. Remove seared meat."
+      },
+      {
+        "step": 2,
+        "text": "Cut carrots thick and onions large. Get color on onions then remove. Do same with carrots."
+      },
+      {
+        "step": 3,
+        "text": "Add vegetables and meat back to pot (no resting juices)."
+      },
+      {
+        "step": 4,
+        "text": "Drizzle flour over and mix."
+      },
+      {
+        "step": 5,
+        "text": "Add bay leaves salt pepper beef spices paprika."
+      },
+      {
+        "step": 6,
+        "text": "Mix and add water. Boil then cover and place in oven for 2 hours. Check occasionally to add water."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-040",
+    "slug": "sojok-with-sweet-brown-sauce-ingredients",
+    "title": "Sojok with Sweet Brown Sauce Ingredients",
+    "description": "A recipe for Sojok with Sweet Brown Sauce Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Sojok",
+            "amount": 0,
+            "unit": "",
+            "notes": "Egyptian sausage"
+          },
+          {
+            "item": "soy sauce",
+            "amount": 0.25,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "rice vinegar",
+            "amount": 0.25,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "pomegranate molasses",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "to 2 tbsp brown sugar",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Water",
+            "amount": 0,
+            "unit": "",
+            "notes": "if needed"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Cook and brown the sojok in a pan."
+      },
+      {
+        "step": 2,
+        "text": "Mix soy sauce rice vinegar pomegranate molasses and brown sugar."
+      },
+      {
+        "step": 3,
+        "text": "Pour sauce over sojok to glaze. Add water if needed and simmer until sticky."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-041",
+    "slug": "koshary-ingredients",
+    "title": "Koshary Ingredients",
+    "description": "A recipe for Koshary Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Rice",
+            "amount": 0.75,
+            "unit": "cup",
+            "notes": "not soaked"
+          },
+          {
+            "item": "Lentils",
+            "amount": 0.75,
+            "unit": "cup",
+            "notes": "brown"
+          },
+          {
+            "item": "Onions",
+            "amount": 8,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "bag (or 1 whole jar) Tomato sauce",
+            "amount": 1,
+            "unit": "",
+            "notes": "salsa"
+          },
+          {
+            "item": "Small Rings pasta",
+            "amount": 1,
+            "unit": "bag",
+            "notes": ""
+          },
+          {
+            "item": "Shezraya",
+            "amount": 0.5,
+            "unit": "cup",
+            "notes": "vermicelli"
+          },
+          {
+            "item": "Garlic",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Vinegar",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Salt pepper cumin",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Oil",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Lentils: Soak lentils then boil until tender but not mushy."
+      },
+      {
+        "step": 2,
+        "text": "Crispy Onions: Finely mince onions and cook in a lot of oil with salt cumin and pepper until browned and crispy. Drain."
+      },
+      {
+        "step": 3,
+        "text": "Rice Mix: In the onion oil cook vermicelli until golden. Add drained rice and lentils season with salt and cumin. Add water to surface level. Cook on low covered without uncovering."
+      },
+      {
+        "step": 4,
+        "text": "Pasta: Cook small rings pasta."
+      },
+      {
+        "step": 5,
+        "text": "Salsa: Cook garlic in oil add salsa vinegar cumin salt pepper and simmer."
+      },
+      {
+        "step": 6,
+        "text": "Serve in layers: rice/lentil mix pasta salsa and crispy onions."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-042",
+    "slug": "meat-and-potato-casserole-white-ingredients",
+    "title": "Meat & Potato Casserole (White) Ingredients",
+    "description": "A recipe for Meat & Potato Casserole (White) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dinner",
+    "diet": "",
+    "tags": ["main", "beef"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Bone-in meat cuts",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Potatoes",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "big onion",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Olive oil & Butter",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Fresh or dried rosemary Zaatar 2 Bay leaves",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Garlic",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Spices: Salt pepper beef spices curry powder ginger powder paprika",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Lemon",
+            "amount": 0,
+            "unit": "",
+            "notes": "optional"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Sear dry meat in butter/oil with rosemary zaatar bay leaves."
+      },
+      {
+        "step": 2,
+        "text": "Blitz onion and mix with garlic and all spices."
+      },
+      {
+        "step": 3,
+        "text": "Cut potatoes into wedges and toss in the onion-spice mixture with olive oil."
+      },
+      {
+        "step": 4,
+        "text": "Place potatoes around meat in pot. Cover with boiling water."
+      },
+      {
+        "step": 5,
+        "text": "Boil on stove taste for salt."
+      },
+      {
+        "step": 6,
+        "text": "Cover and bake at 220°C for 30 minutes."
+      },
+      {
+        "step": 7,
+        "text": "Remove lid and bake for another 15-30 minutes to brown."
+      },
+      {
+        "step": 8,
+        "text": "Optional: Squeeze lemon juice over for the last 10-15 minutes."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-043",
+    "slug": "besela-peas-ingredients",
+    "title": "Besela (Peas) Ingredients",
+    "description": "A recipe for Besela (Peas) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Medium minced onion olive oil ghee garlic peas tomato paste Maggi broth cinnamon pepper salt.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Sauté onion in olive oil and ghee until soft. Add garlic."
+      },
+      {
+        "step": 2,
+        "text": "Add the tomato paste and cook slightly."
+      },
+      {
+        "step": 3,
+        "text": "Add the peas pepper cinnamon and Maggi. Add just enough water to cover."
+      },
+      {
+        "step": 4,
+        "text": "Boil then simmer until cooked. Season with salt."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-044",
+    "slug": "lobia-black-eyed-peas-ingredients",
+    "title": "Lobia (Black-eyed Peas) Ingredients",
+    "description": "A recipe for Lobia (Black-eyed Peas) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Soaked lobia Medium minced onion olive oil ghee garlic tomato paste Maggi broth cinnamon pepper salt.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "For Lobia: Soak overnight or in boiling water for 2 hours."
+      },
+      {
+        "step": 2,
+        "text": "Sauté onion in olive oil and ghee until soft. Add garlic."
+      },
+      {
+        "step": 3,
+        "text": "Add the tomato paste and cook slightly."
+      },
+      {
+        "step": 4,
+        "text": "Add the lobia pepper cinnamon and Maggi. Add just enough water to cover."
+      },
+      {
+        "step": 5,
+        "text": "Boil then simmer until cooked. Season with salt."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-045",
+    "slug": "wara2-3enab-stuffed-vine-leaves-ingredients",
+    "title": "Wara2 3enab (Stuffed Vine Leaves) Ingredients",
+    "description": "A recipe for Wara2 3enab (Stuffed Vine Leaves) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Vine leaves onion/carrot rings pomegranate molasses juice of 3 limes 1 tsp tomato sauce ¼ cup olive oil ½ tsp sumac salt pepper.",
+            "amount": 2,
+            "unit": "tbsp",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Line a pot with onion and carrot rings. Stack the stuffed vine leaves."
+      },
+      {
+        "step": 2,
+        "text": "Mix the liquids spices and tomato sauce. Boil this mixture."
+      },
+      {
+        "step": 3,
+        "text": "Pour half the hot liquid over leaves shake pot. Pour the rest. Add water to just below top layer."
+      },
+      {
+        "step": 4,
+        "text": "Place heavy plates on top. Cook on high heat until water reduces."
+      },
+      {
+        "step": 5,
+        "text": "Remove plates cover pot place on a heat diffuser on low for 1 hour. Squeeze half a lemon over it near the end."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-046",
+    "slug": "stuffed-artichokes-ingredients",
+    "title": "Stuffed Artichokes Ingredients",
+    "description": "A recipe for Stuffed Artichokes Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Artichoke bottoms ground beef mixture. Bechamel/Sauce: 1 cup milk 1 heaping tbsp flour butter cold milk salt pepper nutmeg cheese meat broth.",
+            "amount": 0,
+            "unit": "",
+            "notes": "or yogurt"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Blend the flour milk and butter off the heat. Return to heat stirring until thickened. Season with salt pepper nutmeg and cheese."
+      },
+      {
+        "step": 2,
+        "text": "Pour a little meat broth in the bottom of a baking tray. Stuff artichokes with meat top with sauce and bake."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-047",
+    "slug": "ro2a2-ingredients",
+    "title": "Ro2a2 Ingredients",
+    "description": "A recipe for Ro2a2 Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Ro2a2 pastry sheets",
+            "amount": 0,
+            "unit": "",
+            "notes": "4 bottom 3 top"
+          },
+          {
+            "item": "Ground meat Onion Ghee/oil Garlic Grated tomato Salt Pepper Meat spices",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "milk 1 cup Maggi broth 1 tbsp ghee Salt Pepper.",
+            "amount": 2,
+            "unit": "cups",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Meat Filling: Brown meat add onion ghee spices garlic salt pepper. Stir in grated tomato and simmer."
+      },
+      {
+        "step": 2,
+        "text": "Liquid: Boil milk broth ghee salt pepper."
+      },
+      {
+        "step": 3,
+        "text": "Dip each of 4 pastry layers in warm liquid and place in tray. Pour a ladle of liquid over them."
+      },
+      {
+        "step": 4,
+        "text": "Spread meat filling."
+      },
+      {
+        "step": 5,
+        "text": "Dip and layer top 3 pastry sheets. Cut into squares."
+      },
+      {
+        "step": 6,
+        "text": "Pour another ladle of liquid on top dot with ghee. Bake at 230°C."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-048",
+    "slug": "basic-white-rice-ingredients",
+    "title": "Basic White Rice Ingredients",
+    "description": "A recipe for Basic White Rice Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "rice",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "vegetable oil",
+            "amount": 3,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "salt",
+            "amount": 1,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "water",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Wash rice then soak for 30-60 mins. Drain."
+      },
+      {
+        "step": 2,
+        "text": "Heat oil add drained rice and stir."
+      },
+      {
+        "step": 3,
+        "text": "Boil water pour into pot with salt. Return to boil."
+      },
+      {
+        "step": 4,
+        "text": "Leave on high until water is absorbed."
+      },
+      {
+        "step": 5,
+        "text": "Cover move to low heat with diffuser for 30 mins stirring halfway."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-049",
+    "slug": "mommy-s-roasted-potatoes-ingredients",
+    "title": "Mommy’s Roasted Potatoes Ingredients",
+    "description": "A recipe for Mommy’s Roasted Potatoes Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Potatoes",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Olive oil",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Salt",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": "or potato seasoning"
+          },
+          {
+            "item": "Cumin",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Peel and cube potatoes. Boil in salted water until barely tender."
+      },
+      {
+        "step": 2,
+        "text": "Drain and air dry."
+      },
+      {
+        "step": 3,
+        "text": "Drizzle with olive oil sprinkle with all seasonings and mix."
+      },
+      {
+        "step": 4,
+        "text": "Spread on a parchment-lined tray and roast/broil on high for 30 mins until crispy."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-050",
+    "slug": "molokia-ingredients",
+    "title": "Molokia Ingredients",
+    "description": "A recipe for Molokia Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "frozen Molokia",
+            "amount": 1,
+            "unit": "bag",
+            "notes": ""
+          },
+          {
+            "item": "Ghee",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Olive oil",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "garlic",
+            "amount": 1,
+            "unit": "tsp",
+            "notes": "minced"
+          },
+          {
+            "item": "heaping tsp kosbara nashfa",
+            "amount": 1,
+            "unit": "",
+            "notes": "dry coriander"
+          },
+          {
+            "item": "water",
+            "amount": 2,
+            "unit": "cups",
+            "notes": ""
+          },
+          {
+            "item": "palm-sized piece of frozen chicken stock",
+            "amount": 0.5,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Cumin",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Salt & pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Cook garlic in ghee/oil until yellow. Add dry coriander and mix."
+      },
+      {
+        "step": 2,
+        "text": "Add water stock salt pepper cumin. Boil for 5 mins."
+      },
+      {
+        "step": 3,
+        "text": "Turn off heat. Add frozen Molokia 1 hour before eating."
+      },
+      {
+        "step": 4,
+        "text": "Mix as it thaws over low heat. Do not boil. Do not cover."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-051",
+    "slug": "banya-okra-ingredients",
+    "title": "Banya (Okra) Ingredients",
+    "description": "A recipe for Banya (Okra) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Banya",
+            "amount": 0,
+            "unit": "",
+            "notes": "Okra"
+          },
+          {
+            "item": "Oil",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Red onion",
+            "amount": 1,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Garlic",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Kosbara nashfa",
+            "amount": 1,
+            "unit": "tsp",
+            "notes": "dry coriander"
+          },
+          {
+            "item": "Tomato salsa",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Water",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Salt & pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Juice of 2-3 lemons",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Mince onion and cook in oil until soft. Add garlic."
+      },
+      {
+        "step": 2,
+        "text": "Add dry coriander then salsa and water."
+      },
+      {
+        "step": 3,
+        "text": "Bring to a boil. Add okra and mix."
+      },
+      {
+        "step": 4,
+        "text": "Season with salt and pepper."
+      },
+      {
+        "step": 5,
+        "text": "Add lemon juice just before turning off heat. Boil once more."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-052",
+    "slug": "gochujang-noodles-reference",
+    "title": "Gochujang noodles Reference",
+    "description": "A recipe for Gochujang noodles Reference.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": ["incomplete"],
+    "source": {
+      "name": "Reference",
+      "url": "https://www.instagram.com/reel/Cp70EXlJO5j/?igsh=aHYwbWRzcmsyaTlx"
+    },
+    "ingredients": [
+      {
+        "group": "",
+        "items": []
+      }
+    ],
+    "instructions": [],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-053",
+    "slug": "potato-leek-galette-reference",
+    "title": "Potato leek galette Reference",
+    "description": "A recipe for Potato leek galette Reference.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": ["incomplete"],
+    "source": {
+      "name": "Reference",
+      "url": "https://www.instagram.com/reel/C_5yfKbuMZv/?igsh=bHVtamE1ejNscDVz"
+    },
+    "ingredients": [
+      {
+        "group": "",
+        "items": []
+      }
+    ],
+    "instructions": [],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-054",
+    "slug": "sambousak-ingredients",
+    "title": "Sambousak Ingredients",
+    "description": "A recipe for Sambousak Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": ["incomplete"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Feta cheese",
+            "amount": 0,
+            "unit": "",
+            "notes": "Domty"
+          },
+          {
+            "item": "Mint",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "Green pepper",
+            "amount": 0,
+            "unit": "",
+            "notes": "blended and strained"
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-055",
+    "slug": "fakhda-sauce-ingredients",
+    "title": "Fakhda sauce Ingredients",
+    "description": "A recipe for Fakhda sauce Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": ["incomplete"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Ketchup Olive oil Lemon Salt Pepper Mustard Barbecue sauce Soy sauce.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-056",
+    "slug": "green-juice-ingredients",
+    "title": "Green Juice Ingredients",
+    "description": "A recipe for Green Juice Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": ["incomplete"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Coconut water Pineapple Ginger Kale Mint Spinach Cucumber Green apple.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-057",
+    "slug": "jasmine-rice-coconut-plain-ingredients",
+    "title": "Jasmine Rice (Coconut + Plain) Ingredients",
+    "description": "A recipe for Jasmine Rice (Coconut + Plain) Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Side Dish",
+    "diet": "",
+    "tags": [],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Jasmine rice",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "water",
+            "amount": 0.75,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "can Coconut milk",
+            "amount": 0.75,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "salt",
+            "amount": 1,
+            "unit": "tsp",
+            "notes": ""
+          },
+          {
+            "item": "Coconut oil",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "fresh garlic",
+            "amount": 0.5,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "minced ginger",
+            "amount": 0.5,
+            "unit": "tbsp",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Rinse Jasmine rice well."
+      },
+      {
+        "step": 2,
+        "text": "Sauté garlic and ginger in coconut oil."
+      },
+      {
+        "step": 3,
+        "text": "Add rice and stir."
+      },
+      {
+        "step": 4,
+        "text": "Pour in water coconut milk and salt. Bring to a boil."
+      },
+      {
+        "step": 5,
+        "text": "Reduce to lowest heat cover and simmer for 15-20 minutes. Fluff with a fork."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-058",
+    "slug": "kunafa-ingredients",
+    "title": "Kunafa Ingredients",
+    "description": "A recipe for Kunafa Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dessert",
+    "diet": "",
+    "tags": ["kunafa", "dessert"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Kunafa dough 4 tbsp powdered sugar ghee",
+            "amount": 0,
+            "unit": "",
+            "notes": "melted"
+          },
+          {
+            "item": "Syrup: 2 cups sugar 1 cup water ½ lemon.",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Syrup: Boil sugar and water until dissolved. Add lemon. Skim foam simmer 15 mins. Let cool."
+      },
+      {
+        "step": 2,
+        "text": "Kunafa: Cut dough melt ghee. Mix dough with powdered sugar rub in ghee."
+      },
+      {
+        "step": 3,
+        "text": "Grease pan press a layer of kunafa. Add filling top with another layer."
+      },
+      {
+        "step": 4,
+        "text": "Bake at 200°C for 30-40 mins. Pour cold syrup over hot kunafa."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-059",
+    "slug": "mahalabeya-ingredients",
+    "title": "Mahalabeya Ingredients",
+    "description": "A recipe for Mahalabeya Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dessert",
+    "diet": "",
+    "tags": ["dessert"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "milk 5 tsp cornstarch 2 tbsp sugar 2 packets vanilla cream/table cream",
+            "amount": 2,
+            "unit": "cups",
+            "notes": "eshta"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Mix milk starch and sugar while cold. Heat until thickened. Add vanilla and stir in eshta at the end."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-060",
+    "slug": "baklawa-ingredients",
+    "title": "Baklawa Ingredients",
+    "description": "A recipe for Baklawa Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dessert",
+    "diet": "",
+    "tags": ["baklawa", "dessert"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Phyllo dough melted hot ghee walnuts 2 tbsp honey syrup pinch of cinnamon.",
+            "amount": 0,
+            "unit": "",
+            "notes": "Golash"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Cut phyllo to tray size keep covered."
+      },
+      {
+        "step": 2,
+        "text": "Layer half the phyllo in the tray."
+      },
+      {
+        "step": 3,
+        "text": "Mix walnuts with syrup and cinnamon. Spread over dough."
+      },
+      {
+        "step": 4,
+        "text": "Add remaining phyllo. Cut into shapes."
+      },
+      {
+        "step": 5,
+        "text": "Pour hot ghee over top. Bake at 200°C for 20-30 mins."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
+  },
+  {
+    "id": "rec-061",
+    "slug": "signature-cinnamon-sheetpan-cake-ingredients",
+    "title": "Signature Cinnamon Sheetpan Cake Ingredients",
+    "description": "A recipe for Signature Cinnamon Sheetpan Cake Ingredients.",
+    "image": "",
+    "servings": 0,
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "cuisine": "",
+    "mealType": "Dessert",
+    "diet": "",
+    "tags": ["cake", "dessert"],
+    "source": null,
+    "ingredients": [
+      {
+        "group": "",
+        "items": [
+          {
+            "item": "Vanilla Cake Mix",
+            "amount": 1,
+            "unit": "box",
+            "notes": ""
+          },
+          {
+            "item": "instant pudding mix",
+            "amount": 1,
+            "unit": "package",
+            "notes": ""
+          },
+          {
+            "item": "eggs",
+            "amount": 4,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "milk",
+            "amount": 1,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "vegetable oil",
+            "amount": 0.5,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "sour cream",
+            "amount": 0.5,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "butter",
+            "amount": 0.25,
+            "unit": "cup",
+            "notes": "melted"
+          },
+          {
+            "item": "brown sugar",
+            "amount": 0.33,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "cinnamon",
+            "amount": 1,
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Icing:",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "icing sugar",
+            "amount": 0.5,
+            "unit": "cup",
+            "notes": ""
+          },
+          {
+            "item": "Kiri cheese cubes",
+            "amount": 6,
+            "unit": "",
+            "notes": ""
+          },
+          {
+            "item": "milk",
+            "amount": "3-4",
+            "unit": "tbsp",
+            "notes": ""
+          },
+          {
+            "item": "Dash of vanilla extract",
+            "amount": 0,
+            "unit": "",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": "Preheat oven to 180°C. Grease a baking sheet."
+      },
+      {
+        "step": 2,
+        "text": "Combine cake mix pudding mix eggs milk oil and sour cream. Beat for 2 minutes."
+      },
+      {
+        "step": 3,
+        "text": "Pour batter into pan."
+      },
+      {
+        "step": 4,
+        "text": "Combine melted butter brown sugar and cinnamon."
+      },
+      {
+        "step": 5,
+        "text": "Drizzle cinnamon mix over batter and swirl."
+      },
+      {
+        "step": 6,
+        "text": "Bake for 20-25 minutes."
+      },
+      {
+        "step": 7,
+        "text": "Mix icing ingredients. Drizzle over warm cake."
+      }
+    ],
+    "notes": "",
+    "favorite": false,
+    "createdAt": "2026-04-29T14:03:32.420790Z",
+    "updatedAt": "2026-04-29T14:03:32.420790Z"
   }
 ]
