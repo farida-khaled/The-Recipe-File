@@ -4647,7 +4647,7 @@ window.__RECIPES_DATA = [
     "favorite": false,
     "createdAt": "2026-04-29T17:37:35.552Z",
     "updatedAt": "2026-04-29T17:37:35.552Z"
-  }
+  },
 
   {
     "id": "rec-063",
