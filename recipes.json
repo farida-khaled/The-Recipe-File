@@ -4715,4 +4715,53 @@
     "createdAt": "2026-04-29T14:03:32.420790Z",
     "updatedAt": "2026-04-29T14:03:32.420790Z"
   }
+
+  {
+    "id": "rec-063",
+    "slug": "konafa-mahalabeya",
+    "title": "Konafa with Mahalabeya",
+    "mealType": "Dessert",
+    "cuisine": "Egyptian",
+    "ingredients": [
+      {
+        "group": "Crust",
+        "items": [
+          {"item": "Konafa dough", "amount": "1", "unit": "package"},
+          {"item": "Ghee", "amount": "4", "unit": "tablespoon", "notes": "melted, plus extra for greasing"},
+          {"item": "Powdered sugar", "amount": "4", "unit": "tablespoon"}
+        ]
+      },
+      {
+        "group": "Mahalabeya Filling",
+        "items": [
+          {"item": "Milk", "amount": "2", "unit": "cup", "notes": "cold"},
+          {"item": "Cornstarch", "amount": "5", "unit": "teaspoon"},
+          {"item": "Sugar", "amount": "2", "unit": "tablespoon"},
+          {"item": "Vanilla", "amount": "2", "unit": "packet"},
+          {"item": "Qeshta (table cream)", "amount": "1", "unit": "can"}
+        ]
+      },
+      {
+        "group": "Sugar Syrup",
+        "items": [
+          {"item": "Sugar", "amount": "2", "unit": "cup"},
+          {"item": "Water", "amount": "1", "unit": "cup"},
+          {"item": "Lemon juice", "amount": "0.5", "unit": "teaspoon"}
+        ]
+      }
+    ],
+    "instructions": [
+      {"step": 1, "text": "Prepare Syrup: Add sugar and water to a pot. Add lemon juice. When it boils, skim the foam (reem). Lower heat and simmer for 15 minutes. Let cool for 30 mins, place in a glass container, and store in the fridge."},
+      {"step": 2, "text": "Prepare Mahalabeya: Off the heat, mix the cold milk, starch, and sugar together. Place on the heat and add the vanilla. When it thickens, stir in the Qeshta. Set aside."},
+      {"step": 3, "text": "Prepare Konafa: Cut the konafa hairs with scissors. Melt 4 tbsp of ghee."},
+      {"step": 4, "text": "Mix the konafa with the powdered sugar. Add the melted ghee and rub it in well (afrokha) until the konafa is completely coated and sealed (motagansa)."},
+      {"step": 5, "text": "Grease your baking tray heavily with a piece of ghee."},
+      {"step": 6, "text": "Sprinkle a layer of konafa on the bottom of the tray and pat it down firmly. Bring some of the konafa up the sides of the tray to form a crust."},
+      {"step": 7, "text": "Pour the prepared Mahalabeya into the tray."},
+      {"step": 8, "text": "Sprinkle the remaining konafa on top, spreading and patting it down gently so the filling doesn't squeeze out."},
+      {"step": 9, "text": "Place in a 200°C oven until it reddens and the edges shake away from the corners. Raise the tray to the high rack and cook for 30-40 minutes total."},
+      {"step": 10, "text": "Take out of the oven and immediately pour the cold syrup over the hot konafa."},
+      {"step": 11, "text": "Wait 5 minutes until the syrup is absorbed, then flip onto a serving plate."}
+    ]
+  }
 ]
