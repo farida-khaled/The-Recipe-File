@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Recipe File</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo" id="logo-link">THE RECIPE FILE</a>
+      <nav class="header-nav">
+        <button class="nav-icon" id="search-toggle" aria-label="Toggle search">🔍</button>
+        <button class="nav-icon" id="nav-favorites" aria-label="Favorites">♥</button>
+        <button class="nav-icon" id="btn-add-recipe" aria-label="Add recipe">+</button>
+        <button class="nav-icon" id="btn-export" aria-label="Export recipes" title="Export all recipes as JSON">⤓</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Category Label ─────────────────────────────────── -->
+  <div class="category-bar">
+    <span class="category-label" id="category-label">ALL RECIPES</span>
+  </div>
+
+  <!-- ── Search & Filters ───────────────────────────────── -->
+  <div class="search-bar hidden" id="search-bar">
+    <div class="search-inner">
+      <input type="search" id="search-input" placeholder="Search recipes…" autocomplete="off">
+      <div class="filter-row">
+        <select id="filter-cuisine"><option value="">All Cuisines</option></select>
+        <select id="filter-meal"><option value="">All Meals</option></select>
+        <select id="filter-diet"><option value="">All Diets</option></select>
+        <select id="filter-tag"><option value="">All Tags</option></select>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Main Content ───────────────────────────────────── -->
+  <main class="main-content">
+    <!-- Loading -->
+    <div class="state-msg" id="loading-state">
+      <div class="spinner"></div>
+      <p>Loading recipes…</p>
+    </div>
+
+    <!-- Error -->
+    <div class="state-msg hidden" id="error-state">
+      <p>⚠ Could not load recipes.</p>
+      <button class="btn-retry" id="retry-btn">Try Again</button>
+    </div>
+
+    <!-- Empty -->
+    <div class="state-msg hidden" id="empty-state">
+      <p>No recipes found. Try a different search or filter.</p>
+    </div>
+
+    <!-- Recipe Grid -->
+    <div class="recipe-grid hidden" id="recipe-grid"></div>
+
+    <!-- Recipe Detail -->
+    <div class="recipe-detail hidden" id="recipe-detail"></div>
+  </main>
+
+  <!-- ── Swap Modal ─────────────────────────────────────── -->
+  <div class="modal hidden" id="swap-modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close">✕</button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ── Add / Edit Recipe Modal ────────────────────────── -->
+  <div class="modal hidden" id="add-modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content modal-form-content">
+      <button class="modal-close">✕</button>
+      <h2 class="modal-form-title">Add New Recipe</h2>
+      <div class="form-error" id="form-error"></div>
+
+      <div class="form-grid">
+        <div class="form-field full">
+          <label>Title *</label>
+          <input type="text" class="form-input" id="form-title" placeholder="Recipe title">
+        </div>
+        <div class="form-field full">
+          <label>Description</label>
+          <textarea class="form-input" id="form-desc" placeholder="Short description" rows="2"></textarea>
+        </div>
+        <div class="form-field full">
+          <label>Image URL</label>
+          <input type="url" class="form-input" id="form-image" placeholder="https://i.ibb.co/…">
+        </div>
+        <div class="form-field">
+          <label>Servings</label>
+          <input type="number" class="form-input" id="form-servings" placeholder="4" min="1">
+        </div>
+        <div class="form-field">
+          <label>Prep Time</label>
+          <input type="text" class="form-input" id="form-prep" placeholder="15 min">
+        </div>
+        <div class="form-field">
+          <label>Cook Time</label>
+          <input type="text" class="form-input" id="form-cook" placeholder="30 min">
+        </div>
+        <div class="form-field">
+          <label>Cuisine</label>
+          <select class="form-input" id="form-cuisine">
+            <option value="">Select…</option>
+            <option>American</option><option>Italian</option><option>Mexican</option>
+            <option>Indian</option><option>Japanese</option><option>Thai</option>
+            <option>Chinese</option><option>French</option><option>Mediterranean</option>
+            <option>Korean</option><option>Middle Eastern</option><option>Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label>Meal Type</label>
+          <select class="form-input" id="form-meal">
+            <option value="">Select…</option>
+            <option>Breakfast</option><option>Lunch</option><option>Dinner</option>
+            <option>Snack</option><option>Dessert</option><option>Appetizer</option>
+            <option>Side</option><option>Drink</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label>Diet</label>
+          <select class="form-input" id="form-diet">
+            <option value="">None</option>
+            <option>Vegetarian</option><option>Vegan</option><option>Gluten-Free</option>
+            <option>Dairy-Free</option><option>Keto</option><option>Paleo</option>
+          </select>
+        </div>
+        <div class="form-field full">
+          <label>Tags (comma-separated)</label>
+          <input type="text" class="form-input" id="form-tags" placeholder="comfort food, easy, weeknight">
+        </div>
+        <div class="form-field">
+          <label>Source Name</label>
+          <input type="text" class="form-input" id="form-source-name" placeholder="Mom's cookbook">
+        </div>
+        <div class="form-field">
+          <label>Source URL</label>
+          <input type="url" class="form-input" id="form-source-url" placeholder="https://…">
+        </div>
+      </div>
+
+      <!-- Ingredient Groups -->
+      <div class="form-section">
+        <h3>Ingredients</h3>
+        <div id="form-ing-groups"></div>
+        <button type="button" class="btn-form-action" id="btn-add-group">+ Add Ingredient Group</button>
+      </div>
+
+      <!-- Instructions -->
+      <div class="form-section">
+        <h3>Instructions</h3>
+        <div id="form-steps"></div>
+        <button type="button" class="btn-form-action" id="btn-add-step">+ Add Step</button>
+      </div>
+
+      <!-- Notes -->
+      <div class="form-section">
+        <h3>Notes</h3>
+        <textarea class="form-input" id="form-notes" placeholder="Any additional notes…" rows="3"></textarea>
+      </div>
+
+      <button class="btn-save-recipe" id="btn-save-recipe">Save Recipe</button>
+    </div>
+  </div>
+
+  <!-- ── Footer ─────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <p>The Recipe File — A personal recipe collection</p>
+  </footer>
+
+  <script src="recipes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
