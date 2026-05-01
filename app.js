@@ -860,20 +860,5 @@ if (retryBtn) retryBtn.addEventListener("click", fetchRecipes);
 window.addEventListener("hashchange", () => { const hash = window.location.hash.slice(1); if (!hash) goBack(); else if (hash === "favorites") showFavorites(); else showDetail(hash); });
 if ($("#form-steps")) new MutationObserver(renumberSteps).observe($("#form-steps"), { childList: true });
 
-// We repurpose the old Export button to run our initial migration!
-if ($("#btn-export")) {
-  $("#btn-export").title = "Migrate JSON to Firebase";
-  $("#btn-export").addEventListener("click", async () => {
-    if (!confirm("Upload local recipes to Firebase? Only do this once!")) return;
-    try {
-      const data = window.__RECIPES_DATA || [];
-      for (const recipe of data) {
-        await setDoc(doc(db, "recipes", recipe.id), recipe);
-      }
-      alert("Migration complete! Refresh the page.");
-    } catch (e) { console.error(e); alert("Migration failed."); }
-  });
-}
-
 // Boot
 fetchRecipes();
