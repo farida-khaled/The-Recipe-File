@@ -63,6 +63,16 @@ body {
   letter-spacing: 3px;
   color: var(--text);
   text-decoration: none;
+  display: flex;         /* Added to align image and text */
+  align-items: center;   /* Centers them vertically */
+  gap: 12px;             /* Adds space between the image and the text */
+}
+
+/* Add this brand new class right below it: */
+.logo-img {
+  height: 36px;          /* Scales the image to fit the header nicely */
+  width: auto;
+  mix-blend-mode: multiply; /* Pro-tip: This makes the image's background blend flawlessly into your header! */
 }
 
 .header-nav {
