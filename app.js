@@ -51,6 +51,9 @@ const emptyEl = $("#empty-state");
 const retryBtn = $("#retry-btn");
 const swapModal = $("#swap-modal");
 const addModal = $("#add-modal");
+const filterTag = $("#filter-tag");
+const sortRecipes = $("#sort-recipes"); // <-- ADD THIS LINE
+const searchBar = $("#search-bar");
 
 // ── Substitution Database ──────────────────────────────────
 const SUBSTITUTIONS = {
@@ -211,6 +214,16 @@ function slugify(text) {
 }
 
 // ── UX Helpers ─────────────────────────────────────────────
+// Helper to convert "1 hr 15 min" or "50 min" into a pure number for sorting
+function parseTimeToMinutes(timeStr) {
+  if (!timeStr) return 9999; // Push recipes with no time to the very bottom
+  let mins = 0;
+  const hrMatch = timeStr.match(/(\d+)\s*(hr|hour)/i);
+  const minMatch = timeStr.match(/(\d+)\s*min/i);
+  if (hrMatch) mins += parseInt(hrMatch[1]) * 60;
+  if (minMatch) mins += parseInt(minMatch[1]);
+  return mins || 9999;
+}
 function notify(text) {
   if (window.Toastify) {
     Toastify({
@@ -295,6 +308,7 @@ function applyFilters() {
   const meal = filterMeal.value;
   const diet = filterDiet.value;
   const tag = filterTag.value;
+
   filtered = allRecipes.filter(r => {
     if (cuisine && r.cuisine !== cuisine) return false;
     if (meal && r.mealType !== meal) return false;
@@ -307,6 +321,27 @@ function applyFilters() {
     }
     return true;
   });
+
+  // --- NEW SORTING LOGIC ---
+  const sortVal = sortRecipes ? sortRecipes.value : "newest";
+  filtered.sort((a, b) => {
+    if (sortVal === "newest") {
+      return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
+    } else if (sortVal === "oldest") {
+      return new Date(a.createdAt || 0) - new Date(b.createdAt || 0);
+    } else if (sortVal === "a-z") {
+      return (a.title || "").localeCompare(b.title || "");
+    } else if (sortVal === "z-a") {
+      return (b.title || "").localeCompare(a.title || "");
+    } else if (sortVal === "time-asc") {
+      return parseTimeToMinutes(a.totalTime) - parseTimeToMinutes(b.totalTime);
+    } else if (sortVal === "time-desc") {
+      return parseTimeToMinutes(b.totalTime) - parseTimeToMinutes(a.totalTime);
+    }
+    return 0;
+  });
+  // -------------------------
+
   categoryLabel.textContent = "ALL RECIPES";
   renderGrid();
   if (filtered.length === 0 && (q || cuisine || meal || diet || tag)) showState("empty");
@@ -918,9 +953,9 @@ async function saveRecipe() {
 // ── Listeners & Init ───────────────────────────────────────
 searchToggle.addEventListener("click", () => { searchBar.classList.toggle("hidden"); if (!searchBar.classList.contains("hidden")) searchInput.focus(); });
 searchInput.addEventListener("input", () => { clearTimeout(searchTimeout); searchTimeout = setTimeout(applyFilters, 250); });
-[filterCuisine, filterMeal, filterDiet, filterTag].forEach(el => el.addEventListener("change", applyFilters));
+[filterCuisine, filterMeal, filterDiet, filterTag, sortRecipes].forEach(el => el.addEventListener("change", applyFilters));
 if ($("#nav-favorites")) $("#nav-favorites").addEventListener("click", showFavorites);
-if ($("#logo-link")) $("#logo-link").addEventListener("click", (e) => { e.preventDefault(); window.location.hash = ""; searchInput.value = ""; filterCuisine.value = ""; filterMeal.value = ""; filterDiet.value = ""; filterTag.value = ""; applyFilters(); });
+if ($("#logo-link")) $("#logo-link").addEventListener("click", (e) => { e.preventDefault(); window.location.hash = ""; searchInput.value = ""; filterCuisine.value = ""; filterMeal.value = ""; filterDiet.value = ""; filterTag.value = ""; sortRecipes.value = "newest"; applyFilters(); });
 const addBtn = $("#btn-add-recipe"); if (addBtn) addBtn.addEventListener("click", openAddForm);
 if (addModal) addModal.querySelector(".modal-close").addEventListener("click", closeAddForm);
 if (addModal) addModal.querySelector(".modal-overlay").addEventListener("click", closeAddForm);
