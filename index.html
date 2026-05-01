@@ -39,6 +39,14 @@
     <div class="search-inner">
       <input type="search" id="search-input" placeholder="Search recipes…" autocomplete="off">
       <div class="filter-row">
+        <select id="sort-recipes">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+          <option value="a-z">Alphabetical (A-Z)</option>
+          <option value="z-a">Alphabetical (Z-A)</option>
+          <option value="time-asc">Time (Fastest)</option>
+          <option value="time-desc">Time (Longest)</option>
+        </select>
         <select id="filter-cuisine"><option value="">All Cuisines</option></select>
         <select id="filter-meal"><option value="">All Meals</option></select>
         <select id="filter-diet"><option value="">All Diets</option></select>
