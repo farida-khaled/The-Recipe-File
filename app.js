@@ -210,6 +210,26 @@ function slugify(text) {
   return text.toLowerCase().trim().replace(/[^\w\s-]/g, "").replace(/[\s_]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
 }
 
+// ── UX Helpers ─────────────────────────────────────────────
+function notify(text) {
+  if (window.Toastify) {
+    Toastify({
+      text: text,
+      duration: 3000,
+      gravity: "bottom",
+      position: "right",
+      style: {
+        background: "var(--text)",
+        color: "var(--bg)",
+        fontFamily: "var(--sans)",
+        fontSize: "0.9rem",
+        borderRadius: "0px",
+        boxShadow: "0 4px 12px rgba(0,0,0,0.15)"
+      }
+    }).showToast();
+  }
+}
+
 // ── Data Loading (Firebase) ────────────────────────────────
 async function fetchRecipes() {
   showState("loading");
@@ -232,17 +252,20 @@ async function fetchRecipes() {
 }
 
 // ── State Management ───────────────────────────────────────
-function showState(state) {
-  grid.classList.add("hidden");
-  detail.classList.add("hidden");
-  loadingEl.classList.add("hidden");
-  errorEl.classList.add("hidden");
-  emptyEl.classList.add("hidden");
+function applyStateChange(state) {
+  grid.classList.add("hidden"); detail.classList.add("hidden");
+  loadingEl.classList.add("hidden"); errorEl.classList.add("hidden"); emptyEl.classList.add("hidden");
   if (state === "loading") loadingEl.classList.remove("hidden");
   else if (state === "error") errorEl.classList.remove("hidden");
   else if (state === "empty") emptyEl.classList.remove("hidden");
   else if (state === "grid") { grid.classList.remove("hidden"); currentView = "grid"; }
   else if (state === "detail") { detail.classList.remove("hidden"); currentView = "detail"; }
+}
+
+function showState(state) {
+  // If the browser supports View Transitions, animate it. Otherwise, snap instantly.
+  if (!document.startViewTransition) applyStateChange(state);
+  else document.startViewTransition(() => applyStateChange(state));
 }
 
 function populateFilters() {
@@ -303,6 +326,9 @@ function renderGrid() {
   grid.innerHTML = "";
   filtered.forEach(r => {
     const card = document.createElement("article");
+     const card = document.createElement("article");
+    card.className = "recipe-card";
+    card.setAttribute("data-aos", "fade-up"); // <-- ADD THIS LINE
     card.className = "recipe-card";
     const initial = (r.title || "R")[0].toUpperCase();
     card.innerHTML = `
