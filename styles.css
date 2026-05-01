@@ -68,7 +68,6 @@ body {
   gap: 12px;             /* Adds space between the image and the text */
 }
 
-/* Add this brand new class right below it: */
 .logo-img {
   height: 36px;          /* Scales the image to fit the header nicely */
   width: auto;
