@@ -51,9 +51,6 @@ const emptyEl = $("#empty-state");
 const retryBtn = $("#retry-btn");
 const swapModal = $("#swap-modal");
 const addModal = $("#add-modal");
-const filterTag = $("#filter-tag");
-const sortRecipes = $("#sort-recipes"); // <-- ADD THIS LINE
-const searchBar = $("#search-bar");
 
 // ── Substitution Database ──────────────────────────────────
 const SUBSTITUTIONS = {
@@ -214,16 +211,6 @@ function slugify(text) {
 }
 
 // ── UX Helpers ─────────────────────────────────────────────
-// Helper to convert "1 hr 15 min" or "50 min" into a pure number for sorting
-function parseTimeToMinutes(timeStr) {
-  if (!timeStr) return 9999; // Push recipes with no time to the very bottom
-  let mins = 0;
-  const hrMatch = timeStr.match(/(\d+)\s*(hr|hour)/i);
-  const minMatch = timeStr.match(/(\d+)\s*min/i);
-  if (hrMatch) mins += parseInt(hrMatch[1]) * 60;
-  if (minMatch) mins += parseInt(minMatch[1]);
-  return mins || 9999;
-}
 function notify(text) {
   if (window.Toastify) {
     Toastify({
@@ -243,6 +230,17 @@ function notify(text) {
   }
 }
 
+// Helper to convert "1 hr 15 min" or "50 min" into a pure number for sorting
+function parseTimeToMinutes(timeStr) {
+  if (!timeStr || typeof timeStr !== 'string') return 9999; // Push recipes with no time to the bottom
+  let mins = 0;
+  const hrMatch = timeStr.match(/(\d+)\s*(hr|hour)/i);
+  const minMatch = timeStr.match(/(\d+)\s*min/i);
+  if (hrMatch) mins += parseInt(hrMatch[1], 10) * 60;
+  if (minMatch) mins += parseInt(minMatch[1], 10);
+  return mins || 9999;
+}
+
 // ── Data Loading (Firebase) ────────────────────────────────
 async function fetchRecipes() {
   showState("loading");
@@ -256,7 +254,7 @@ async function fetchRecipes() {
     filtered = [...allRecipes];
     populateFilters();
     showState("grid");
-    renderGrid();
+    applyFilters();
     handleHash();
   } catch (err) {
     console.error("Fetch error:", err);
@@ -308,12 +306,23 @@ function applyFilters() {
   const meal = filterMeal.value;
   const diet = filterDiet.value;
   const tag = filterTag.value;
+  
+  // Safely grab the sort dropdown
+  const sortSelect = document.getElementById("sort-recipes");
+  const sortVal = sortSelect ? sortSelect.value : "newest";
 
+  // 1. FILTERING
   filtered = allRecipes.filter(r => {
+    // A. Check Favorites View
+    if (currentView === "favorites" && !r.favorite) return false;
+
+    // B. Check Dropdowns
     if (cuisine && r.cuisine !== cuisine) return false;
     if (meal && r.mealType !== meal) return false;
     if (diet && r.diet !== diet) return false;
     if (tag && (!r.tags || !r.tags.includes(tag))) return false;
+
+    // C. Check Search Query
     if (q) {
       const haystack = [r.title, r.description, r.cuisine, r.mealType, r.diet, ...(r.tags || [])].join(" ").toLowerCase();
       const ingHaystack = (r.ingredients || []).map(g => (g.items || []).map(i => i.item).join(" ")).join(" ").toLowerCase();
@@ -322,8 +331,7 @@ function applyFilters() {
     return true;
   });
 
-  // --- NEW SORTING LOGIC ---
-  const sortVal = sortRecipes ? sortRecipes.value : "newest";
+  // 2. SORTING
   filtered.sort((a, b) => {
     if (sortVal === "newest") {
       return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
@@ -340,20 +348,18 @@ function applyFilters() {
     }
     return 0;
   });
-  // -------------------------
 
-  categoryLabel.textContent = "ALL RECIPES";
+  // 3. RENDERING
+  categoryLabel.textContent = currentView === "favorites" ? "FAVORITES" : "ALL RECIPES";
   renderGrid();
-  if (filtered.length === 0 && (q || cuisine || meal || diet || tag)) showState("empty");
+  
+  if (filtered.length === 0) showState("empty");
   else showState("grid");
 }
 
 function showFavorites() {
-  filtered = allRecipes.filter(r => r.favorite === true);
-  categoryLabel.textContent = "FAVORITES";
-  renderGrid();
-  if (filtered.length === 0) showState("empty");
-  else showState("grid");
+  currentView = "favorites";
+  applyFilters(); // Pushes the logic through the unified pipeline
 }
 
 // ── Grid Rendering ─────────────────────────────────────────
@@ -951,11 +957,31 @@ async function saveRecipe() {
 }
 
 // ── Listeners & Init ───────────────────────────────────────
+const sortRecipesDropdown = document.getElementById("sort-recipes");
+
 searchToggle.addEventListener("click", () => { searchBar.classList.toggle("hidden"); if (!searchBar.classList.contains("hidden")) searchInput.focus(); });
 searchInput.addEventListener("input", () => { clearTimeout(searchTimeout); searchTimeout = setTimeout(applyFilters, 250); });
-[filterCuisine, filterMeal, filterDiet, filterTag, sortRecipes].forEach(el => el.addEventListener("change", applyFilters));
+
+// Attach event listener safely to all dropdowns (including sort)
+[filterCuisine, filterMeal, filterDiet, filterTag, sortRecipesDropdown].forEach(el => {
+  if (el) el.addEventListener("change", applyFilters);
+});
+
 if ($("#nav-favorites")) $("#nav-favorites").addEventListener("click", showFavorites);
-if ($("#logo-link")) $("#logo-link").addEventListener("click", (e) => { e.preventDefault(); window.location.hash = ""; searchInput.value = ""; filterCuisine.value = ""; filterMeal.value = ""; filterDiet.value = ""; filterTag.value = ""; sortRecipes.value = "newest"; applyFilters(); });
+
+if ($("#logo-link")) $("#logo-link").addEventListener("click", (e) => { 
+  e.preventDefault(); 
+  window.location.hash = ""; 
+  searchInput.value = ""; 
+  filterCuisine.value = ""; 
+  filterMeal.value = ""; 
+  filterDiet.value = ""; 
+  filterTag.value = ""; 
+  if (sortRecipesDropdown) sortRecipesDropdown.value = "newest"; 
+  currentView = "grid"; // Resets view from favorites back to home
+  applyFilters(); 
+});
+
 const addBtn = $("#btn-add-recipe"); if (addBtn) addBtn.addEventListener("click", openAddForm);
 if (addModal) addModal.querySelector(".modal-close").addEventListener("click", closeAddForm);
 if (addModal) addModal.querySelector(".modal-overlay").addEventListener("click", closeAddForm);
@@ -968,4 +994,4 @@ if ($("#form-steps")) new MutationObserver(renumberSteps).observe($("#form-steps
 
 // Boot
 fetchRecipes();
-AOS.init({ duration: 600, once: true, offset: 50 });
+if (window.AOS) AOS.init({ duration: 600, once: true, offset: 50 });
