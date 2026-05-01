@@ -1,5 +1,5 @@
 /* ============================================================
-   THE RECIPE FILE — app.js (Firebase Edition)
+   THE RECIPE FILE — app.js
    ============================================================ */
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
@@ -54,18 +54,18 @@ const addModal = $("#add-modal");
 
 // ── Substitution Database ──────────────────────────────────
 const SUBSTITUTIONS = {
-  "brown sugar": [{ name: "White Sugar and Molasses", desc: "Mix 1 cup white sugar with 1 tablespoon molasses to replace 1 cup brown sugar. Adjust molasses for darker or lighter brown sugar." }, { name: "Coconut Sugar", desc: "Use coconut sugar as a 1:1 direct substitute. It has a similar texture and subtle caramel flavor." }],
+  "brown sugar": [{ name: "White Sugar and Molasses", desc: "Mix 1 cup white sugar with 1 tablespoon molasses to replace 1 cup brown sugar." }, { name: "Coconut Sugar", desc: "Use coconut sugar as a 1:1 direct substitute." }],
   "sugar": [{ name: "Honey", desc: "Use ¾ cup honey per 1 cup sugar. Reduce other liquids by ¼ cup and lower oven temp by 25°F." }, { name: "Maple Syrup", desc: "Use ¾ cup maple syrup per 1 cup sugar. Reduce other liquids by 3 tablespoons." }],
-  "butter": [{ name: "Coconut Oil", desc: "Substitute 1:1. Use refined for neutral flavor, unrefined for coconut taste." }, { name: "Olive Oil", desc: "Use ¾ the amount of olive oil (¾ cup oil per 1 cup butter). Best for savory recipes." }],
+  "butter": [{ name: "Coconut Oil", desc: "Substitute 1:1. Use refined for neutral flavor." }, { name: "Olive Oil", desc: "Use ¾ the amount of olive oil. Best for savory recipes." }],
   "milk": [{ name: "Oat Milk", desc: "Substitute 1:1. Creamy texture, works well in baking." }, { name: "Almond Milk", desc: "Substitute 1:1. Slightly thinner, mild nutty flavor." }],
-  "heavy cream": [{ name: "Coconut Cream", desc: "Use full-fat coconut cream 1:1. Chill the can and scoop the solid cream." }, { name: "Milk + Butter", desc: "Mix ¾ cup milk with ¼ cup melted butter per 1 cup cream." }],
+  "heavy cream": [{ name: "Coconut Cream", desc: "Use full-fat coconut cream 1:1." }, { name: "Milk + Butter", desc: "Mix ¾ cup milk with ¼ cup melted butter per 1 cup cream." }],
   "sour cream": [{ name: "Greek Yogurt", desc: "Substitute 1:1. Similar tang and texture, slightly less fat." }],
-  "cream cheese": [{ name: "Mascarpone", desc: "Substitute 1:1. Richer and slightly sweeter." }, { name: "Greek Yogurt (strained)", desc: "Strain yogurt overnight through cheesecloth. Tangier but similar texture." }],
-  "eggs": [{ name: "Flax Egg", desc: "Mix 1 tablespoon ground flaxseed with 3 tablespoons water per egg. Let sit 5 minutes." }, { name: "Mashed Banana", desc: "Use ¼ cup mashed banana per egg. Adds sweetness, best for baking." }],
+  "cream cheese": [{ name: "Mascarpone", desc: "Substitute 1:1. Richer and slightly sweeter." }, { name: "Greek Yogurt (strained)", desc: "Strain yogurt overnight through cheesecloth." }],
+  "eggs": [{ name: "Flax Egg", desc: "Mix 1 tablespoon ground flaxseed with 3 tablespoons water per egg. Let sit 5 minutes." }, { name: "Mashed Banana", desc: "Use ¼ cup mashed banana per egg." }],
   "all-purpose flour": [{ name: "Whole Wheat Flour", desc: "Substitute 1:1 but use ¾ cup + 2 tablespoons per cup of AP flour. Denser result." }, { name: "Gluten-Free Blend", desc: "Use a 1:1 GF baking blend." }],
-  "vanilla extract": [{ name: "Vanilla Bean Paste", desc: "Substitute 1:1. Adds visible vanilla bean specks." }],
+  "vanilla extract": [{ name: "Vanilla Bean Paste", desc: "Substitute 1:1." }],
   "olive oil": [{ name: "Avocado Oil", desc: "Substitute 1:1. Neutral flavor, high smoke point." }],
-  "soy sauce": [{ name: "Tamari", desc: "Substitute 1:1. Gluten-free option with similar flavor." }, { name: "Coconut Aminos", desc: "Substitute 1:1. Less sodium, slightly sweeter." }]
+  "soy sauce": [{ name: "Tamari", desc: "Substitute 1:1. Gluten-free option." }, { name: "Coconut Aminos", desc: "Substitute 1:1. Less sodium, slightly sweeter." }]
 };
 
 // ── Fraction Helpers ───────────────────────────────────────
@@ -326,10 +326,8 @@ function renderGrid() {
   grid.innerHTML = "";
   filtered.forEach(r => {
     const card = document.createElement("article");
-     const card = document.createElement("article");
     card.className = "recipe-card";
-    card.setAttribute("data-aos", "fade-up"); // <-- ADD THIS LINE
-    card.className = "recipe-card";
+    card.setAttribute("data-aos", "fade-up");
     const initial = (r.title || "R")[0].toUpperCase();
     card.innerHTML = `
       <div class="card-img-wrap" data-slug="${esc(r.slug)}">
@@ -466,18 +464,24 @@ function renderDetail() {
       ${r.tags && r.tags.length ? `<div class="detail-tags">${r.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}
     </div>
     <div class="detail-controls">
-      <div class="unit-toggle">
-        <span class="control-label">Units</span>
-        <button class="btn-unit${currentUnit === "original" ? " active" : ""}" data-unit="original">Original</button>
-        <button class="btn-unit${currentUnit === "us" ? " active" : ""}" data-unit="us">US</button>
-        <button class="btn-unit${currentUnit === "metric" ? " active" : ""}" data-unit="metric">Metric</button>
+      <div style="display: flex; gap: 24px; width: 100%; flex-wrap: wrap;">
+        <div class="unit-toggle">
+          <span class="control-label">Units</span>
+          <button class="btn-unit${currentUnit === "original" ? " active" : ""}" data-unit="original">Original</button>
+          <button class="btn-unit${currentUnit === "us" ? " active" : ""}" data-unit="us">US</button>
+          <button class="btn-unit${currentUnit === "metric" ? " active" : ""}" data-unit="metric">Metric</button>
+        </div>
+        <div class="serving-scaler">
+          <span class="control-label">Servings</span>
+          <button class="btn-scale" id="scale-down">−</button>
+          <span class="scale-value" id="scale-value">${servings}</span>
+          <button class="btn-scale" id="scale-up">+</button>
+          <button class="btn-scale-reset" id="scale-reset">Reset</button>
+        </div>
       </div>
-      <div class="serving-scaler">
-        <span class="control-label">Servings</span>
-        <button class="btn-scale" id="scale-down">−</button>
-        <span class="scale-value" id="scale-value">${servings}</span>
-        <button class="btn-scale" id="scale-up">+</button>
-        <button class="btn-scale-reset" id="scale-reset">Reset</button>
+      <div class="action-buttons">
+         <button class="btn-action" id="btn-copy-ings">📋 Copy Ingredients</button>
+         <button class="btn-action" id="btn-cooking-mode">💡 Wake Lock: Off</button>
       </div>
     </div>
     <div class="detail-body">
@@ -512,6 +516,40 @@ function renderDetail() {
   $("#btn-edit-recipe").addEventListener("click", () => openEditForm(r));
   $("#btn-delete-recipe").addEventListener("click", () => deleteRecipe(r.id, r.title));
   
+  // Copy Ingredients Logic
+  $("#btn-copy-ings").addEventListener("click", () => {
+    let text = `${r.title} Ingredients:\n\n`;
+    groups.forEach(g => {
+      if (g.group) text += `${g.group}:\n`;
+      g.items.forEach(i => { text += `- ${i.amount || ''} ${i.unit || ''} ${i.item} ${i.notes ? '('+i.notes+')' : ''}\n`; });
+      text += '\n';
+    });
+    navigator.clipboard.writeText(text.trim()).then(() => notify("Ingredients copied to clipboard!"));
+  });
+
+  // Cooking Mode (Wake Lock API) Logic
+  let wakeLock = null;
+  const cookBtn = $("#btn-cooking-mode");
+  cookBtn.addEventListener("click", async () => {
+    if (wakeLock !== null) {
+      wakeLock.release().then(() => { 
+        wakeLock = null; 
+        cookBtn.textContent = "💡 Wake Lock: Off"; 
+        cookBtn.classList.remove("active"); 
+        notify("Screen will now sleep normally."); 
+      });
+    } else {
+      try {
+        wakeLock = await navigator.wakeLock.request('screen');
+        cookBtn.textContent = "💡 Wake Lock: ON";
+        cookBtn.classList.add("active");
+        notify("Cooking mode on. Screen will stay awake!");
+      } catch (err) { 
+        notify("Wake lock not supported on this browser/device."); 
+      }
+    }
+  });
+
   detail.querySelector(".detail-fav").addEventListener("click", (e) => {
     const isCurrentlyFav = e.target.classList.contains("is-fav");
     toggleFavorite(r.id, !isCurrentlyFav);
@@ -573,6 +611,7 @@ function renderDetail() {
     notesArea.value = "";
     localStorage.removeItem(`notes_${r.id}`);
     $("#notes-time").textContent = "";
+    notify("Notes cleared!");
   });
 }
 
@@ -646,8 +685,11 @@ async function toggleFavorite(id, isFav) {
     const rec = allRecipes.find(r => r.id === id);
     if (rec) rec.favorite = isFav;
     if (currentView === "grid") renderGrid();
+    
+    notify(isFav ? "Saved to Favorites ❤️" : "Removed from Favorites 🤍");
   } catch (error) {
     console.error("Error updating favorite: ", error);
+    notify("Error saving favorite.");
   }
 }
 
@@ -657,9 +699,10 @@ async function deleteRecipe(id, title) {
     await deleteDoc(doc(db, "recipes", id));
     allRecipes = allRecipes.filter(r => r.id !== id);
     goBack();
+    notify("Recipe deleted.");
   } catch (error) {
     console.error("Error deleting recipe: ", error);
-    alert("Could not delete recipe.");
+    notify("Error deleting recipe.");
   }
 }
 
@@ -851,12 +894,14 @@ async function saveRecipe() {
       await updateDoc(doc(db, "recipes", editingRecipeId), recipeData);
       const memIdx = allRecipes.findIndex(r => r.id === editingRecipeId);
       if (memIdx > -1) allRecipes[memIdx] = { ...allRecipes[memIdx], ...recipeData };
+      notify("Recipe updated!");
     } else {
       recipeData.createdAt = recipeData.updatedAt;
       recipeData.favorite = false;
       const newDocRef = doc(collection(db, "recipes"));
       await setDoc(newDocRef, recipeData);
       allRecipes.push({ ...recipeData, id: newDocRef.id });
+      notify("New recipe added!");
     }
     closeAddForm();
     applyFilters();
@@ -888,3 +933,4 @@ if ($("#form-steps")) new MutationObserver(renumberSteps).observe($("#form-steps
 
 // Boot
 fetchRecipes();
+AOS.init({ duration: 600, once: true, offset: 50 });
