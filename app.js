@@ -735,7 +735,17 @@ async function toggleFavorite(id, isFav) {
 }
 
 async function deleteRecipe(id, title) {
-  if (!confirm(`Are you sure you want to permanently delete "${title}"?`)) return;
+  // 1. Ask for the password
+  const attempt = prompt(`Enter admin password to delete "${title}":`);
+  
+  if (attempt !== "Foffa") {
+    if (attempt !== null) notify("Incorrect password. Deletion cancelled.");
+    return; // Stop the function completely
+  }
+
+  // 3. If the password is correct, confirm one last time
+  if (!confirm(`Are you ABSOLUTELY sure you want to permanently delete "${title}"?`)) return;
+  
   try {
     await deleteDoc(doc(db, "recipes", id));
     allRecipes = allRecipes.filter(r => r.id !== id);
