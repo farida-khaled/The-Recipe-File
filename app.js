@@ -1007,51 +1007,51 @@ fetchRecipes();
 if (window.AOS) AOS.init({ duration: 600, once: true, offset: 50 });
 
 
-// ── TEMPORARY BULK UPLOADER ────────────────────────────────
-const bulkUploader = document.getElementById("temp-bulk-upload");
-if (bulkUploader) {
-  bulkUploader.addEventListener("change", (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
+// // ── TEMPORARY BULK UPLOADER ────────────────────────────────
+// const bulkUploader = document.getElementById("temp-bulk-upload");
+// if (bulkUploader) {
+//   bulkUploader.addEventListener("change", (e) => {
+//     const file = e.target.files[0];
+//     if (!file) return;
     
-    const reader = new FileReader();
-    reader.onload = async (event) => {
-      try {
-        const newRecipes = JSON.parse(event.target.result);
-        if (!Array.isArray(newRecipes)) throw new Error("JSON file must contain an array of recipes.");
+//     const reader = new FileReader();
+//     reader.onload = async (event) => {
+//       try {
+//         const newRecipes = JSON.parse(event.target.result);
+//         if (!Array.isArray(newRecipes)) throw new Error("JSON file must contain an array of recipes.");
         
-        if (!confirm(`Found ${newRecipes.length} recipes in the file. Upload them to Firebase now?`)) return;
+//         if (!confirm(`Found ${newRecipes.length} recipes in the file. Upload them to Firebase now?`)) return;
         
-        bulkUploader.disabled = true;
-        let count = 0;
+//         bulkUploader.disabled = true;
+//         let count = 0;
         
-        for (const r of newRecipes) {
-          // Add timestamps if they are missing
-          r.createdAt = r.createdAt || new Date().toISOString();
-          r.updatedAt = r.updatedAt || new Date().toISOString();
-          r.favorite = r.favorite || false;
+//         for (const r of newRecipes) {
+//           // Add timestamps if they are missing
+//           r.createdAt = r.createdAt || new Date().toISOString();
+//           r.updatedAt = r.updatedAt || new Date().toISOString();
+//           r.favorite = r.favorite || false;
           
-          // If the recipe already has an ID, use it. Otherwise, let Firebase generate one.
-          if (r.id) {
-            await setDoc(doc(db, "recipes", r.id), r);
-          } else {
-            const newDocRef = doc(collection(db, "recipes"));
-            await setDoc(newDocRef, r);
-          }
+//           // If the recipe already has an ID, use it. Otherwise, let Firebase generate one.
+//           if (r.id) {
+//             await setDoc(doc(db, "recipes", r.id), r);
+//           } else {
+//             const newDocRef = doc(collection(db, "recipes"));
+//             await setDoc(newDocRef, r);
+//           }
           
-          count++;
-          console.log(`Uploaded ${count} of ${newRecipes.length}: ${r.title}`);
-        }
+//           count++;
+//           console.log(`Uploaded ${count} of ${newRecipes.length}: ${r.title}`);
+//         }
         
-        alert(`Success! Uploaded ${count} recipes. Refresh the page to see them.`);
-      } catch (err) {
-        console.error(err);
-        alert("Error parsing JSON or uploading to Firebase. Check the console for details.");
-      } finally {
-        bulkUploader.disabled = false;
-        bulkUploader.value = ""; // Reset the input
-      }
-    };
-    reader.readAsText(file);
-  });
-}
+//         alert(`Success! Uploaded ${count} recipes. Refresh the page to see them.`);
+//       } catch (err) {
+//         console.error(err);
+//         alert("Error parsing JSON or uploading to Firebase. Check the console for details.");
+//       } finally {
+//         bulkUploader.disabled = false;
+//         bulkUploader.value = ""; // Reset the input
+//       }
+//     };
+//     reader.readAsText(file);
+//   });
+// }
